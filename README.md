@@ -1,6 +1,8 @@
 # InuKoi
 Web Application Development System Final Project
 
+Live Link: https://jocelin21.github.io/InuKoi/
+
 Target User:
 - Dog owners
 
