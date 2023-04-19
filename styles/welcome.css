@@ -10,11 +10,19 @@ body {
 
 .message1 {
     padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.message3{
+    padding-top: 50px;
 }
 
 .message1, .logoname {
     display: inline-block;
-    padding-bottom: 30px;
+}
+
+.logoname {
+    max-width: 250px;
 }
 
 .message1, .message3 {
@@ -52,6 +60,7 @@ button:hover {
 }  
 
 .dogslogo {
+    z-index: -10;
     max-width: 400px;
     position: absolute;
     bottom: 0;
