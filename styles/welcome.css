@@ -1,0 +1,61 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap');
+
+body {
+    background: #FFEBE0;
+    text-align: center;
+    padding-top: 210px;
+}
+
+.message1, .logoname {
+    display: inline-block;
+}
+
+.message1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 61px;
+    font-weight: 900;
+    color: #443226;
+    letter-spacing: 2px;
+}
+
+.logoname {
+    font-family: 'Glory', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: #CC3300;
+    letter-spacing: 6px;
+    padding-left: 20px;
+}
+
+.heart {
+    width: 32px;
+    height: 39px;
+}
+
+.message2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+    font-weight: 300;
+    color: #443226;
+    padding-top: 30px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    border: 2px solid #4E412F1A;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #4E412F;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: #FFFAF5;
+    width: 195px;
+}
+
+button:hover {
+    cursor: pointer;
+  }  

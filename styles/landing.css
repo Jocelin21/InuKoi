@@ -1,9 +1,9 @@
 /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500&display=swap');
 
 * {
     scroll-behavior: smooth;
@@ -76,7 +76,7 @@ section {
 .homecaption1 {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 900;
     margin-right: 20px;
 }
 
@@ -117,15 +117,16 @@ section {
 .title{
     font-family: 'Inter', sans-serif;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .aboutapp {
     font-family: 'Glory', sans-serif;
     font-size: 50px;
+    font-weight: 500;
     color: #CC3300;
     position: relative;
-    top: -45px;
+    top: -35px;
 }
 
 .aboutcaption {
@@ -137,8 +138,8 @@ section {
 
 .founders {
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .foundersname {
@@ -221,7 +222,7 @@ section {
     padding-top: 29px;
     max-width: 650px;
     letter-spacing:2px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.4;
 }
 
@@ -232,7 +233,7 @@ section {
 .comcap {
     font-family: 'Hepta Slab', serif;
     font-size: 19px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing:2px;
     line-height: 1.4;
 }
@@ -286,7 +287,7 @@ button:hover {
 .contacttitle {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 900;
     color: #FFE7D0;
 }
 
@@ -305,4 +306,5 @@ button:hover {
     font-family: 'Hepta Slab', serif;
     color: #FFF;
     font-size: 23px;
+    font-weight: 500;
 }
