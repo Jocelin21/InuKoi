@@ -26,19 +26,6 @@ body {
     padding-right: 20px;
 }
 
-.logoname {
-    font-family: 'Glory', sans-serif;
-    font-size: 80px;
-    font-weight: 500;
-    color: #CC3300;
-    letter-spacing: 6px;
-}
-
-.heart {
-    width: 32px;
-    height: 39px;
-}
-
 .message2 {
     font-family: 'Poppins', sans-serif;
     font-size: 43px;
