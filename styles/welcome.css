@@ -4,21 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap');
 
 body {
-    background: #FFEBE0;
     text-align: center;
-    padding-top: 210px;
+    padding-top: 110px;
+}
+
+.message1 {
+    padding-top: 80px;
 }
 
 .message1, .logoname {
     display: inline-block;
+    padding-bottom: 30px;
 }
 
-.message1 {
+.message1, .message3 {
     font-family: 'Inter', sans-serif;
     font-size: 61px;
     font-weight: 900;
     color: #443226;
     letter-spacing: 2px;
+    padding-right: 20px;
 }
 
 .logoname {
@@ -27,7 +32,6 @@ body {
     font-weight: 500;
     color: #CC3300;
     letter-spacing: 6px;
-    padding-left: 20px;
 }
 
 .heart {
@@ -40,12 +44,12 @@ body {
     font-size: 43px;
     font-weight: 300;
     color: #443226;
-    padding-top: 30px;
 }
 
 button{
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
+    margin-bottom: 120px;
     border: 2px solid #4E412F1A;
     border-radius: 8px;
     padding: 20px;
@@ -58,4 +62,11 @@ button{
 
 button:hover {
     cursor: pointer;
-  }  
+}  
+
+.dogslogo {
+    max-width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
