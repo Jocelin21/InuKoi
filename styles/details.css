@@ -1,0 +1,239 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+body {
+    background: #FFDEDE;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FEEAEA;
+    box-shadow: 0 16px 40px 0 rgba(112, 38, 62, 0.25);
+    border-radius: 20px;
+    width: calc(100% - 200px);
+    height: calc(100% - 120px);
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+}
+
+.info-container, .info-container2 {
+    margin-top: 15px;
+    width: 330px;
+}
+
+input[type="text"], input[type="date"] {
+    border: 2px solid #4E412F1A;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #FFFAF5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+input[type="date"] {
+    content: attr(placeholder);
+    text-transform: uppercase;
+    color: #A6968C;
+  }
+
+input[type="text"]::placeholder {
+    color: #A6968C;
+}
+
+.ownername, .birth, .gender, .country, .city {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.pic {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.back {
+    max-width: 50px;
+}
+
+.logoname {
+    max-width: 150px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.numactive, .numinactive {
+    font-size: 20px;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4E412F;
+    color: #FFE7D1;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 15px;
+}
+
+.numinactive {
+    background-color: rgba(78, 65, 47, 0.5);
+}
+
+.titleinactive {
+    color: rgba(78, 65, 47, 0.5);
+}
+
+.titleactive, .titleinactive {
+    font-weight: 900;
+}
+
+.steps {
+    margin-top: 30px;
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+    padding: 23px 0px;
+}
+
+.line{
+    border-left: 3px solid #443226;
+    height: 100%;
+}
+
+.gender-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    height: 50px;
+    background-color: #FEEAEA;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px 0 rgba(58, 31, 22, 0.25);
+}
+
+.gender-box label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 100%;
+    color: #4E412F;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.gender-box input[type="radio"] {
+    display: none;
+}
+
+.gender-box input[type="radio"]:checked + span {
+    background-color: #4E412F;
+    color: #FFE7D1;
+    opacity: 1;
+}
+
+.gender-box span {
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FEEAEA;
+    color: #4E412F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.5;
+    padding: 24px 26px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.gender-box span:hover {
+    opacity: 1;
+}
+
+.gender-box label:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -15px;  /* adjust this value to control the distance of the line from the label */
+    transform: translateY(-50%);
+    height: 80%; /* adjust this value to control the length of the line */
+    border-left: 1px solid #4e412f73; /* adjust this value to control the style and color of the line */
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.pic {
+    border-radius: 50%;
+    background-color: #FEA8A8;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.upload {
+    color: rgba(78, 65, 47, 0.5);
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.camera {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 7px;
+}
+
+button {
+    border: 2px solid #4E412F1A;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4E412F;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    box-sizing: border-box;
+    color: #FFFAF5;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    right: 0;
+    margin-right: 35px;
+}
+
+button:hover, .pic:hover {
+    cursor: pointer;
+}  
+
