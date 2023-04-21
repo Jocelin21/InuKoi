@@ -33,32 +33,36 @@ body {
     width: 330px;
 }
 
+.ownername, .birth, .gender, .country, .city, .dogname, .breed, .age {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 input[type="text"], input[type="date"] {
-    border: 2px solid #4E412F1A;
+    border: none;
     border-radius: 8px;
     padding: 12px;
     font-size: 16px;
     background-color: #FFFAF5;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
     width: 100%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
+input[type="text"]:focus, input[type="date"]:focus {
+    outline: none;
+}
+
 input[type="date"] {
     content: attr(placeholder);
     text-transform: uppercase;
     color: #A6968C;
-  }
+}
 
 input[type="text"]::placeholder {
     color: #A6968C;
-}
-
-.ownername, .birth, .gender, .country, .city {
-    padding-top: 30px;
-    padding-bottom: 20px;
 }
 
 .pic {
@@ -119,19 +123,23 @@ input[type="text"]::placeholder {
     height: 100%;
 }
 
-.gender-box {
+.gender-box, .pgender-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 88%;
-    height: 50px;
+    height: 30px;
     background-color: #FEEAEA;
     border-radius: 10px;
     padding: 10px 20px;
-    box-shadow: 0 5px 10px 0 rgba(58, 31, 22, 0.25);
+    box-shadow: 0 2px 8px rgba(82, 46, 34, 0.135);
 }
 
-.gender-box label {
+.pgender-box {
+    width: 60%;
+}
+
+.gender-box label, .pgender-box label {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,19 +152,19 @@ input[type="text"]::placeholder {
     position: relative;
 }
 
-.gender-box input[type="radio"] {
+.gender-box input[type="radio"], .pgender-box input[type="radio"] {
     display: none;
 }
 
-.gender-box input[type="radio"]:checked + span {
+.gender-box input[type="radio"]:checked + span, .pgender-box input[type="radio"]:checked + span {
     background-color: #4E412F;
     color: #FFE7D1;
     opacity: 1;
 }
 
-.gender-box span {
+.gender-box span, .pgender-box span {
     width: 30px;
-    height: 10px;
+    height: 0px;
     border-radius: 10px;
     background-color: #FEEAEA;
     color: #4E412F;
@@ -166,24 +174,24 @@ input[type="text"]::placeholder {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     opacity: 0.5;
-    padding: 24px 26px;
+    padding: 20px 26px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-.gender-box span:hover {
+.gender-box span:hover, .pgender-box span {
     opacity: 1;
 }
 
-.gender-box label:not(:last-child)::after {
+.gender-box label:not(:last-child)::after, .pgender-box label:not(:last-child)::after {
     content: '';
     position: absolute;
     top: 50%;
-    right: -15px;  /* adjust this value to control the distance of the line from the label */
+    right: -15px;
     transform: translateY(-50%);
-    height: 80%; /* adjust this value to control the length of the line */
-    border-left: 1px solid #4e412f73; /* adjust this value to control the style and color of the line */
+    height: 80%;
+    border-left: 1px solid #4e412f73;
 }
 
 .picture {
@@ -195,9 +203,9 @@ input[type="text"]::placeholder {
 .pic {
     border-radius: 50%;
     background-color: #FEA8A8;
-    width: 50px;
-    height: 50px;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 8px rgba(82, 46, 34, 0.135);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,14 +214,41 @@ input[type="text"]::placeholder {
 
 .upload {
     color: rgba(78, 65, 47, 0.5);
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: 600;
 }
 
 .camera {
-    width: 40px;
-    height: 40px;
-    padding-bottom: 7px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.message1 {
+    margin-top: 45px;
+    max-width: 300px;
+    font-size: 27px;
+    line-height: 1.5;
+}
+
+.message2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#bio {
+    padding-left: 23px;
+    font-size: 21px;
+    height: 200px;
+    width: 715px;
+}
+
+.info {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A6968C;
+    padding-top: 10px;
 }
 
 button {
@@ -230,7 +265,7 @@ button {
     bottom: 0;
     margin-bottom: 35px;
     right: 0;
-    margin-right: 35px;
+    margin-right: 80px;
 }
 
 button:hover, .pic:hover {

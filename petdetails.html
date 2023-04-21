@@ -6,6 +6,56 @@
     <link rel="stylesheet" href="styles/details.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title-container">
+            <a href="humandetails.html"><img class="back" src="image/back.png"></a>
+            <div class="steps">
+                <div class="step-container">
+                    <div class="numinactive">1</div>
+                    <div class="titleinactive">Owner Profile</div>
+                </div>
+                <div class="step-container">
+                    <div class="numactive">2</div>
+                    <div class="titleactive">Pet Details</div>
+                </div>
+                <div class="step-container">
+                    <div class="numinactive">3</div>
+                    <div class="titleinactive">Pet Bio</div>
+                </div>
+            </div>
+            <img class="logoname" src="image/logoname.png">
+        </div>
+
+        <div class="line"></div>
+
+        <div class="info-container">
+            <div class="dogname">Name</div>
+            <input type="text" id="dname" name="dname" placeholder="Dog's Name">
+            <div class="breed">Breed</div>
+            <input type="text" id="dbreed" name="dbreed" placeholder="Dogs's Breed">
+            <div class="age">Age</div>
+            <input type="text" id="dage" name="dage" placeholder="Dog's Age">
+
+        </div>
+
+        <div class="info-container2">
+            <div class="gender">Gender</div>
+            <div class="pgender-box">
+                <label>
+                <input type="radio" name="gender" value="male">
+                <span>Male</span>
+                </label>
+                <label>
+                <input type="radio" name="gender" value="female">
+                <span>Female</span>
+                </label>
+            </div>
+            <div class="picture">
+                <div class="pic"><img class="camera" src="image/camera.png"></div>
+                <div class="upload">Upload Photo</div>
+            </div>
+            <a href="petbio.html"><button>Next</button></a>
+        </div>
+    </div>
 </body>
 </html>

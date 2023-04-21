@@ -40,6 +40,10 @@ input[type="email"], input[type="password"], input[type="text"] {
   box-sizing: border-box;
 }
 
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+  outline: none;
+}
+
 .mail, .pass, .username{
   font-size: 25px;
   padding-bottom: 8px;
