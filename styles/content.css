@@ -171,6 +171,10 @@ button {
     align-items: center;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .reject, .accept {
     margin: 0 75px;
     border-radius: 50%;
