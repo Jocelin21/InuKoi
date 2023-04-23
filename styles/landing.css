@@ -35,6 +35,7 @@ body {
     margin-left: 70px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
 }
 
 .nav a:hover {

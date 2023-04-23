@@ -194,10 +194,14 @@ input[type="text"]::placeholder {
     border-left: 1px solid #4e412f73;
 }
 
-.picture {
+.picture, .dpicture {
     display: flex;
     align-items: center;
-    margin-top: 43px;
+    margin-top: 41px;
+}
+
+.dpicture {
+    margin-top: 22px;
 }
 
 .pic {
@@ -270,5 +274,4 @@ button {
 
 button:hover, .pic:hover {
     cursor: pointer;
-}  
-
+}
