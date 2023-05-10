@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useAuthState } from "react-firebase-hooks/auth";
-import "../styles/Home.css"
+import "../styles/Home.css";
 
 function Home() {
     return (
@@ -24,7 +23,7 @@ function Home() {
     </div>
         <section id="home">
           <div className="flex-container">
-            <img className="logoname" src="image/dogfence.png" alt=""/>
+            <img className="logoname" src= "./image/dogfence.png" alt=""/>
             <div className="homecaption">
               <div className="homecaption1">Asia’s 1st Dog Dating Site</div>
               <div className="homecaption2">Download our app now!</div>
@@ -98,6 +97,6 @@ function Home() {
         </section>
       </div>
     )
-    }
-
-    export default Home;
+  }
+    
+export default Home;

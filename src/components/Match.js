@@ -6,7 +6,7 @@ import "../styles/Match.css";
 function Match() {
 
     return (
-      
+
       <div>
         <meta charSet="utf-8" />
         <title>InuKoi</title>
