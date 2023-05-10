@@ -9,7 +9,7 @@ import { GoogleAuthProvider,
     signOut,
   } from "firebase/auth";
   import { getFirestore, query, getDocs, collection, where, addDoc} from "firebase/firestore";
-import { getAnalytics } from "firebase/analytics";
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyAv4uo1ZXemsFRGpAFeC7KIN6Jp0rYv-5A",
