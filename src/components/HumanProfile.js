@@ -1,4 +1,4 @@
-import "../styles/HumanProfile.css"
+import "../styles/Details.css"
 function HumanProfile() {
     return (
       <div>
@@ -7,7 +7,7 @@ function HumanProfile() {
         <link rel="stylesheet" href="styles/details.css" />
         <div className="container">
           <div className="title-container">
-            <a href="login.html"><img className="back" src="image/back.png" /></a>
+            <a href="login"><img className="back" src="image/back.png" /></a>
             <div className="steps">
               <div className="step-container">
                 <div className="numactive">1</div>
@@ -22,7 +22,7 @@ function HumanProfile() {
                 <div className="titleinactive">Pet Bio</div>
               </div>
             </div>
-            <a href="index.html"><img className="logoname" src="image/logoname.png" /></a>
+            <a href="index"><img className="logonamedetails" src="image/logoname.png" /></a>
           </div>
           <div className="line" />
           <div className="info-container">
@@ -55,7 +55,7 @@ function HumanProfile() {
               <div className="pic"><img className="camera" src="image/camera.png" /></div>
               <div className="upload">Upload Photo</div>
             </div>
-            <a href="petdetails"><button>Next</button></a>
+            <a href="petdetails"><button className="buttondetails">Next</button></a> 
           </div>
         </div>
       </div>

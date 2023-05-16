@@ -1,16 +1,19 @@
-import Home from "./components/Home"
+
 import SignUp from "./components/SignUp"
-import Login from "./components/Login"
+
 
 //uncomment down below to see other pages
 //it starts getting weird the images, pls help
 
-//import Welcome from "./components/Welcome"
-// import HumanProfile from "./components/HumanProfile";
-// import PetDetails from "./components/PetDetails";
-// import PetBio from "./components/PetBio";
-// import Start from "./components/Start";
-// import Match from "./components/Match";
+import Match from "./components/Match";
+import Start from "./components/Start";
+import HumanProfile from "./components/HumanProfile";
+import PetBio from "./components/PetBio";
+import PetDetails from "./components/PetDetails";
+import Login from "./components/Login"
+import Welcome from "./components/Welcome"
+import Home from "./components/Home"
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
@@ -25,12 +28,12 @@ function App() {
           <Route exact path="/signup" element={<SignUp />} /> 
           {/* uncomment down below to see the other pages */}
 
-          {/* <Route exact path="/humandetails" element={<HumanProfile />} /> 
+          <Route exact path="/humandetails" element={<HumanProfile />} /> 
           <Route exact path="/petdetails" element={<PetDetails />} /> 
-          <Route exact path="/petbio" element={<PetBio />} /> */}
-          {/* <Route exact path="/start" element={<Start />} /> */}
-          {/* <Route exact path="/match" element={<Match />} /> */}
-          {/* <Route exact path="/welcome" element={<Welcome/>} /> */}
+          <Route exact path="/petbio" element={<PetBio />} /> 
+          <Route exact path="/start" element={<Start />} />
+          <Route exact path="/match" element={<Match />} />
+          <Route exact path="/welcome" element={<Welcome/>} />
         </Routes>
       </Router>
     </div>

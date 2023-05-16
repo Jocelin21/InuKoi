@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../styles/SignUp.css";
+import "../styles/Login.css";
 
 function SignUp() {
   return (
@@ -16,7 +16,7 @@ function SignUp() {
           <input type="email" id="email" name="email" placeholder="Enter your email address" />
           <div className="pass">Password</div>
           <input type="password" id="password" name="password" placeholder="Enter your password" />
-          <a href="welcome"><button className="signup">Sign Up</button></a>
+          <a href="welcome"><button className="buttonsignup">Sign Up</button></a>
           <p className="signmessage">Already have an account? <a href="login" className="bold-italic">Login</a> now!</p>
         </div>
       </div>

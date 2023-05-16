@@ -1,4 +1,4 @@
-import "../styles/PetDetails.css"
+import "../styles/Details.css"
 
 function PetDetails() {
   return (
@@ -23,7 +23,7 @@ function PetDetails() {
               <div className="titleinactive">Pet Bio</div>
             </div>
           </div>
-          <a href="index.html"><img className="logoname" src="image/logoname.png" /></a>
+          <a href="home"><img className="logonamedetails" src="image/logoname.png" /></a>
         </div>
         <div className="line" />
         <div className="info-container">
@@ -50,7 +50,7 @@ function PetDetails() {
             <div className="pic"><img className="camera" src="image/camera.png" /></div>
             <div className="upload">Upload Photo</div>
           </div>
-          <a href="petbio.html"><button>Next</button></a>
+          <a href="petbio"><button className="buttondetails">Next</button></a> 
         </div>
       </div>
     </div>

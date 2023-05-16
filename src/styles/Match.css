@@ -1,10 +1,10 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-* {
+/* * {
     font-family: 'Poppins', sans-serif;
     color: #443226;
-}
+} */
 
 body {
     margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 /* Navigation bar */
-.nav {
+.nav match {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,18 +27,20 @@ body {
     transform: translate(0%, 40%);
 }
 
-.nav a {
+.nav match2 {
     font-size: 1.4rem;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     letter-spacing: 3%;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
 }
 
 .inactive:hover {
     color: #917d71;
 }
 
-.logoname {
+.logonamematch {
     max-width: 250px;
     position: absolute;
     padding-left: 30px;
@@ -47,6 +49,8 @@ body {
 .active {
     color: #bb250d;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
 }
 
 .active:hover {
@@ -85,6 +89,8 @@ body {
 
 .name {  
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
 }
 
 .dog{
@@ -94,6 +100,8 @@ body {
     padding-bottom: 20px;
     font-size: 35px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
 }
 
 .gender {
@@ -133,6 +141,8 @@ body {
     box-sizing: border-box;
     text-align: center;
     z-index: 90;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
 }
 
 .age {
@@ -155,13 +165,15 @@ body {
     padding-top: 33px; 
     padding-bottom: 15px;
     line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
 }
 
 .icon {
     display: flex;
 }
 
-button {
+.buttonmatch {
     border-radius: 50%;
     margin: 0 75px;
     border: none;
@@ -172,7 +184,7 @@ button {
     align-items: center;
 }
 
-button:hover {
+.buttonmatch:hover {
     cursor: pointer;
 }
 

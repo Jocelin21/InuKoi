@@ -23,7 +23,7 @@ function Home() {
     </div>
         <section id="home">
           <div className="flex-container">
-            <img className="logoname" src= "./image/dogfence.png" alt=""/>
+            <img className="logonamehome" src= "./image/dogfence.png" alt=""/>
             <div className="homecaption">
               <div className="homecaption1">Asia’s 1st Dog Dating Site</div>
               <div className="homecaption2">Download our app now!</div>
@@ -77,7 +77,7 @@ function Home() {
               <div className="comcap">Join the community to</div>
               <div className="comcap">Like, Comment, and Share posts!</div>
             </div>
-            <a href><button className="join">Join now!</button></a>
+            <a href><button className="buttonhome">Join now!</button></a>
             <img className="featureicon" src="image/featureicon.png" />
           </div>
           <img className="postexample" src="image/postexample.png" />

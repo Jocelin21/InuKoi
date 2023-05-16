@@ -8,10 +8,10 @@ function Welcome() {
         <meta charSet="utf-8" />
         <title>Welcome to InuKoi</title>
         <link rel="stylesheet" href="styles/welcome.css" />
-        <div className="message1">Welcome to</div>
-        <img className="logoname" src="image/logoname.png" />
-        <div className="message2">Create Your Dog’s Profile now</div>
-        <a href="humandetails.html"><button className="Start">Start</button></a>
+        <div className="messagewelcome1">Welcome to</div>
+        <img className="logonamewelcome" src="image/logoname.png" />
+        <div className="messagewelcome2">Create Your Dog’s Profile now</div>
+        <a href="humandetails"><button className="buttonwelcome">Start</button></a>
       </div>
     );
   };

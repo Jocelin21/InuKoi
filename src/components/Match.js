@@ -9,7 +9,7 @@ function Match() {
       <link rel="stylesheet" href="styles/content.css" />
       <header>
         <div className="header-container">
-          <a href="/"><img className="logoname" src="image/logoname.png" /></a>
+          <a href="/"><img className="logonamematch" src="image/logoname.png" /></a>
           <div className="nav">
             <a className="active" href="match">Match</a>
             <a className="inactive" href="chat">Chat</a>
@@ -36,8 +36,8 @@ function Match() {
         </div>
         <div className="desc">Romeo had Juliet, but I chews you to be my fur-ever love.</div>
         <div className="icon">
-          <button><img className="reject" src="image/reject.png" /></button>
-          <button><img className="accept" src="image/accept.png" /></button>
+          <button className="buttonmatch"><img className="reject" src="image/reject.png" /></button>
+          <button className="buttonmatch"><img className="accept" src="image/accept.png" /></button>
         </div>
       </div>
     </div>

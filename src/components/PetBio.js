@@ -1,4 +1,4 @@
-import "../styles/PetBio.css"
+import "../styles/Details.css"
 
 function PetBio() {
   return (
@@ -23,7 +23,7 @@ function PetBio() {
               <div className="titleactive">Pet Bio</div>
             </div>
           </div>
-          <a href="index.html"><img className="logoname" src="image/logoname.png" /></a>
+          <a href="index.html"><img className="logonamedetails" src="image/logoname.png" /></a>
         </div>
         <div className="line" />
         <div className="info-container3">
@@ -31,7 +31,7 @@ function PetBio() {
           <div className="message2">Fill in your dog’s bio,</div>
           <input type="text" id="bio" name="bio" placeholder="Write bio here" />
           <div className="info">You can edit this later</div>
-          <a href="start"><button>Finish</button></a>
+          <a href="start"><button className="buttondetails">Finish</button></a> 
         </div>
       </div>
     </div>

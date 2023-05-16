@@ -8,25 +8,25 @@ body {
     text-align: center;
 }
 
-.message1 {
+.messagewelcome1 {
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: left;
 }
 
-.message3{
+.messagewelcome3{
     padding-top: 50px;
 }
 
-.message1, .logoname {
+.messagewelcome1, .logonamewelcome {
     display: inline-block;
 }
 
-.logoname {
+.logonamewelcome {
     max-width: 250px;
 }
 
-.message1, .message3 {
+.messagewelcome1, .messagewelcome3 {
     font-family: 'Inter', sans-serif;
     font-size: 61px;
     font-weight: 900;
@@ -35,14 +35,14 @@ body {
     padding-right: 20px;
 }
 
-.message2 {
+.messagewelcome2 {
     font-family: 'Poppins', sans-serif;
     font-size: 43px;
     font-weight: 300;
     color: #443226;
 }
 
-button{
+.buttonwelcome{
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     margin-bottom: 120px;
@@ -54,9 +54,11 @@ button{
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     color: #FFFAF5;
     width: 195px;
+    justify-content: center;
+    align-items: center;
 }
 
-button:hover {
+.buttonwelcome:hover {
     cursor: pointer;
 }  
 
