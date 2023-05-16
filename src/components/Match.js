@@ -23,14 +23,14 @@ function Match() {
       <div className="body-container">
         <div className="dog">
           <div className="name">Kopi</div>
-          <img className="gender" src="image/gender.png" />
+          <img className="doggender" src="image/gender.png" />
         </div>
         <div className="doginfo">
           <img className="dogpic" src="image/dogpic.png" />
           <img className="locicon" src="image/locationicon.png" />
           <div className="doginfo2">
             <div className="type">Shibu Inu</div>
-            <div className="age">2 Yrs Old</div>
+            <div className="dogage">2 Yrs Old</div>
             <div className="location">Jakarta, Indonesia</div>
           </div>
         </div>

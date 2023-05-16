@@ -5,9 +5,9 @@
   font-family: 'Poppins', sans-serif;
 } */
 
-body{
+#loginbody{
   background-color: #FFECD0;
-  background-image: url("");
+  background: url("../authenticationbg.png");
   background-repeat: repeat;
   background-size: cover;
   color: #443226;

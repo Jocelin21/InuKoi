@@ -5,6 +5,11 @@ import "../styles/Login.css";
 function Login() {
   return (
     <div>
+      {/* <style>
+        body {
+            background: url("../authenticationbg.png";)
+        }
+      </style> */}
       <meta charSet="utf-8" />
       <title>Sign In</title>
       <Link rel="stylesheet" href="styles/authentication.css" />

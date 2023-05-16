@@ -2,7 +2,7 @@ import "../styles/Details.css"
 
 function PetDetails() {
   return (
-    <div>
+    <div className="detailbody">
       <meta charSet="utf-8" />
       <title>Pet Details</title>
       <link rel="stylesheet" href="styles/details.css" />

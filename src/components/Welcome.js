@@ -4,7 +4,7 @@ import "../styles/Welcome.css";
 
 function Welcome() {
     return (
-      <div>
+      <div className="welcomeBody">
         <meta charSet="utf-8" />
         <title>Welcome to InuKoi</title>
         <link rel="stylesheet" href="styles/welcome.css" />

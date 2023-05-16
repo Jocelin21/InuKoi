@@ -1,16 +1,16 @@
+import "../styles/Home.css";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../styles/Home.css";
 
 function Home() {
     return (
       
-      <div>
+      <div id="loginbody">
         <meta charSet="utf-8" />
         <title>InuKoi</title>
         <link rel="stylesheet" href="styles/landing.css" />
         <header>
-          <div className="nav">
+          <div className="homenav">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#features">Features</a>
@@ -20,7 +20,7 @@ function Home() {
           </div>
         </header>
         <div className="app">
-    </div>
+      </div>
         <section id="home">
           <div className="flex-container">
             <img className="logonamehome" src= "./image/dogfence.png" alt=""/>
