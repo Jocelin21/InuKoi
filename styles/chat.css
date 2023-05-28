@@ -3,7 +3,7 @@
 .chat-container {
     position: absolute;
     top: 55%;
-    left: 33px;
+    left: 30px;
     transform: translatey(-45%);
     background-color: #fff0e9;
     box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
@@ -12,12 +12,12 @@
     height: 450px;
     display: flex;
     flex-direction: column;
-    padding: 10px 30px;
+    padding: 10px 35px;
 }
 
 .chattop {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .contacttitle {
@@ -77,11 +77,11 @@
     color: #FFFAF5;
     border-radius: 20px;
     background-color: #FFA9A9;
-    max-width: 50%;
-    padding: 10px;
+    max-width: 500px;
+    padding: 10px 20px;
     margin-left: auto;
     box-shadow: -3px 3px 5px rgba(57, 32, 24, 0.128);
-
+    font-size: 15px;
 }
 
 .user2 {
@@ -94,7 +94,69 @@
     padding: 10px 20px;
     margin: 10px 0;
     box-shadow: 3px 3px 5px rgba(57, 32, 24, 0.128);
+    font-size: 15px;
+}
 
+.chatbottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.chattype {
+    display: flex;
+    align-items: center;
+}
+
+#textsmtg {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    background-color: #FFA9A9;
+    width: 550px;
+    padding: 17px 70px;
+    margin-left: auto;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.10);
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+#textsmtg:focus{
+    outline: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFAF5;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+#textsmtg::placeholder {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFAF5;
+    letter-spacing: 1px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.phoneicon, .mic {
+    max-height: 45px;
+}
+
+.add {
+    max-height: 25px;
+    transform: translateX(170%);
+}
+
+.send {
+    max-height: 25px;
+    transform: translateX(-170%);
+}
+
+.phoneicon:hover, .mic:hover, .add:hover, .send:hover {
+    cursor: pointer;
 }
 
 .side-container {
@@ -146,7 +208,6 @@
     margin-right: 15px;
 }
 
-
 .cmate {
     position: absolute;
     max-width: 25px;
@@ -154,7 +215,6 @@
     border-radius: 50%;
     margin-top: -5px;
 }
-
 
 .cgirlpic {
     position: absolute;
