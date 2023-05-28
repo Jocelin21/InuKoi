@@ -1,0 +1,185 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
+
+*{
+    color: #4E412F;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.prefbody {
+    background: linear-gradient(#FFE6D8, #FFEBE0);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prefcontainer{
+    background-color: #FEEFE8;
+    box-shadow: 0 16px 40px 0 rgba(112, 38, 62, 0.25);
+    border-radius: 20px;
+    width: calc(100% - 200px);
+    height: calc(100vh - 150px);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preftitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 61px;
+    font-weight: 900;
+    letter-spacing: 4;
+    color: #4E412F;
+    letter-spacing: 4px;
+}
+
+.prefdesc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #4E412F;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.breed, .location{
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.breed-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.breed-box label, .locationbox label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 100%;
+    color: #4E412F;
+    cursor: pointer;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(48, 28, 21, 0.135);
+}
+
+.breed-box input[type="radio"], .locationbox input[type="checkbox"]{
+    display: none;
+}
+
+.breed-box input[type="radio"]:checked + span, .locationbox input[type="checkbox"]:checked + span{
+    background-color: #4E412F;
+    color:  #FEEFE8;
+    opacity: 1;
+}
+
+.breed-box span, .locationbox span{
+    width: 30px;
+    height: 0px;
+    border-radius: 8px;
+    color: #4E412F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 20px 26px;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.breed-box span:hover, .locationbox span:hover{
+    opacity: 0.5;
+}
+
+.locationbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.loccount, .loccity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #4E412F;
+    background-color:  #FEEFE8;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(48, 28, 21, 0.135);
+    border: none;
+}
+
+.preflow{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: -20px;
+}
+
+.modnotif{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #4E412F;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.prefdown{
+    max-height: 20%;
+    padding-left: 10px;
+}
+
+button:hover, .prefback:hover{
+    cursor: pointer;
+}
+
+.prefleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.prefback{
+    max-width: 50px;
+}
+
+.save{
+    border: 2px solid #4E412F1A;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4E412F;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    box-sizing: border-box;
+    color: #FFFAF5;
+    margin-left: 30px;
+}
