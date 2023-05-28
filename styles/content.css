@@ -5,7 +5,7 @@
     color: #443226;
 }
 
-body {
+.contentbody {
     margin: 0;
     background-color: #ffe9dc;
     overflow: hidden;

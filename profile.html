@@ -3,17 +3,26 @@
 <head>
     <meta charset="utf-8">
     <title>InuKoi Profile</title>
+    <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/profile.css">
+    <style>
+        html {
+            height: 100%;
+            background: linear-gradient(#FFDEDE, #FFEBE0);
+        }
+    </style>
 </head>
-<body>
+<body class="contentbody">
     <header>
-        <div class="nav">
+        <div class="header-container">
             <a href="index.html"><img class="logoname" src="image/logoname.png"></a>
-            <a class="active" href="match.html">Match</a>
-            <a class="inactive" href="chat.html">Chat</a>
-            <a class="inactive" href="explore.html">Explore</a>
+            <div class="nav">
+                <a class="inactive" href="choose.html">Match</a>
+                <a class="inactive" href="chat.html">Chat</a>
+                <a class="inactive" href="explore.html">Explore</a>            
+            </div>
             <a href="profile.html">
-                <div class="pic"><img class="camera" src="image/camera.png"></div>
+                <img class="profilepic" src="image/profilepic.png">
             </a>
         </div>
     </header>
