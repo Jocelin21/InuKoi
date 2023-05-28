@@ -8,12 +8,93 @@
     background-color: #fff0e9;
     box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
     border-radius: 20px;
-    width: 70%;
+    width: 67%;
     height: 450px;
     display: flex;
     flex-direction: column;
+    padding: 10px 30px;
+}
+
+.chattop {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contacttitle {
+    display: flex;
+    align-items: center;
+}
+
+
+.ccdogpic{
+    width: 80px;
+    height: 80px;
+    z-index: -10;
+    border-radius: 50%;
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.ccmate {
+    position: absolute;
+    max-width: 25px;
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+.ccgirlpic {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    transform: translate(160%, 140%);
+}
+
+.ccdog{
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+}
+
+.ccgender {
+    max-height: 40px;
+    margin: 7px;
+}
+
+.user {
+    text-align: right;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFAF5;
+    border-radius: 20px;
+    background-color: #FFA9A9;
+    max-width: 50%;
     padding: 10px;
-    place-items: center;
+    margin-left: auto;
+    box-shadow: -3px 3px 5px rgba(57, 32, 24, 0.128);
+
+}
+
+.user2 {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #443226;
+    border-radius: 20px;
+    background-color: #FFE7DA;
+    max-width: 55%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-shadow: 3px 3px 5px rgba(57, 32, 24, 0.128);
+
 }
 
 .side-container {
@@ -71,7 +152,7 @@
     max-width: 25px;
     z-index: 1;
     border-radius: 50%;
-    transform: translate(-350%, -15%);
+    margin-top: -5px;
 }
 
 
@@ -85,6 +166,4 @@
     transform: translate(160%, 140%);
 }
 
-a {
-    text-decoration: none;
-}
+a { text-decoration: none; }
