@@ -6,7 +6,7 @@
     left: 30px;
     transform: translatey(-45%);
     background-color: #fff0e9;
-    box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
+    box-shadow: 0 4px 10px 0 rgba(50, 17, 27, 0.25);
     border-radius: 20px;
     width: 67%;
     height: 450px;
@@ -121,6 +121,7 @@
     border: none;
     letter-spacing: 1px;
     font-size: 15px;
+    color: #FFFAF5;
 }
 
 #textsmtg:focus{
