@@ -3,14 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>InuKoi Profile</title>
+    <link rel="stylesheet" href="styles/details.css">
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/profile.css">
-    <style>
-        html {
-            height: 100%;
-            background: linear-gradient(#FFDEDE, #FFEEDF);
-        }
-    </style>
+<style>
+    body {
+        background: #FFDEDE;
+        
+    }
+</style>
+    
 </head>
 <body>
     <header>
@@ -29,26 +31,101 @@
     <div class="profile-container">
         <div class="profilecap">*This is how your profile will look like to others</div>
         <section id="profileview">
-            <div class="doginfo">
-                <img class="dogpic" src="image/profilepic.png">
-                <img class="locicon" src="image/locationicon.png">
-                <div class="doginfo2">
-                    <div class="type">Shibu Inu</div>
-                    <div class="age">2 Yrs Old</div>
-                    <div class="location">Jakarta, Indonesia</div>
+            <div class="sectiontitle">Profile Preview</div>
+            <div class="profdoginfo">
+                <div class="profdoginfo2">
+                    <div class="proftype">Shiba Inu</div>
+                    <div class="profloc">
+                        <div class="proflocation">Jakarta, Indonesia</div>
+                        <img class="proflocicon" src="image/locationicon.png">
+                    </div>
+                </div>
+                <div class="profpicset">
+                    <img class="profdogpic" src="image/profilepic.png">
+                    <img class="guypic" src="image/guypic.png">
+                </div>
+                <div class="profage">2 Yrs Old</div>
+            </div>
+            <div class="profdog">
+                <div class="profname">Ai</div>
+                <img class="profgender" src="image/female.png">
+            </div>
+            <div class="profdesc">I'll unleash my love for you &lt;3</div>
+        </section>
+        <div class="profline"></div>
+        <section id="userprofile">
+            <div class="sectiontitle">User Profile</div>
+            <div class="line"></div>
+
+            <div class="info-container">
+                <div class="ownername">Name</div>
+                <input type="text" id="oname" name="oname" placeholder="Owner's Name">
+                <div class="birth">Date of Birth</div>
+                <input type="date" id="birth" name="birth">
+                <div class="gender">Gender</div>
+                <div class="gender-box">
+                    <label>
+                    <input type="radio" name="gender" value="male">
+                    <span>Male</span>
+                    </label>
+                    <label>
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                    </label>
+                    <label>
+                    <input type="radio" name="gender" value="other">
+                    <span>Other</span>
+                    </label>
                 </div>
             </div>
-            <div class="dog">
-                <div class="name">Kopi</div>
-                <img class="gender" src="image/male.png">
+    
+            <div class="info-container2">
+                <div class="country">Country</div>
+                <input type="text" id="ocountry" name="ocountry" placeholder="Chosen Country">
+                <div class="city">City</div>
+                <input type="text" id="ocity" name="ocity" placeholder="Chosen City">
+                <div class="picture">
+                    <div class="pic"><img class="camera" src="image/camera.png"></div>
+                    <div class="upload">Upload Photo</div>
+                </div>
+                <button class="savebutton">Save</button>
             </div>
-            <div class="desc">I'll unleash my love for you &lt;3</div>
         </section>
-        <section id="userprofile">
-            
-        </section>
+        <div class="profline"></div>
         <section id="dogprofile">
-            
+            <div class="sectiontitle">Dog Profile</div>
+            <div class="info-container">
+                <div class="dogname">Name</div>
+                <input type="text" id="dname" name="dname" placeholder="Dog's Name">
+                <div class="breed">Breed</div>
+                <input type="text" id="dbreed" name="dbreed" placeholder="Dogs's Breed">
+                <div class="aged">Age</div>
+                <input type="text" id="dage" name="dage" placeholder="Dog's Age">
+    
+            </div>
+    
+            <div class="info-container2">
+                <div class="gender">Gender</div>
+                <div class="pgender-box">
+                    <label>
+                    <input type="radio" name="gender" value="male">
+                    <span>Male</span>
+                    </label>
+                    <label>
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                    </label>
+                </div>
+                <div class="dpicture">
+                    <div class="pic"><img class="camera" src="image/camera.png"></div>
+                    <div class="upload">Upload Photo</div>
+                </div>
+            </div>
+            <div class="info-container3">
+                <div class="message1">Bio</div>
+                <input type="text" id="bio" name="bio" placeholder="Write bio here">
+                <button class="savebutton">Save</button>
+            </div>
         </section>
     </div>
 </body>

@@ -132,7 +132,7 @@
     padding: 5px;
     font-size: 12px;
     background-color: #FFFAF5;
-    box-shadow: 0 8px 10px rgba(57, 32, 24, 0.135);
+    box-shadow: 0 4px 5px rgba(57, 32, 24, 0.1);
     width: 170px;
     box-sizing: border-box;
     text-align: center;

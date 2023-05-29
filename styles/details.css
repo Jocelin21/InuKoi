@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-* {
-    color: #4E412F;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 23px;
-}
-
 body {
     background: #FFDEDE;
 }
@@ -33,9 +26,13 @@ body {
     width: 330px;
 }
 
-.ownername, .birth, .gender, .country, .city, .dogname, .breed, .age {
+.ownername, .birth, .gender, .country, .city, .dogname, .breed, .aged {
     padding-top: 30px;
     padding-bottom: 20px;
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
 }
 
 input[type="text"], input[type="date"] {
@@ -49,6 +46,7 @@ input[type="text"], input[type="date"] {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: #4E412F;
 }
 
 input[type="text"]:focus, input[type="date"]:focus {
@@ -74,7 +72,7 @@ input[type="text"]::placeholder {
     max-width: 50px;
 }
 
-.logoname {
+.dlogoname {
     max-width: 150px;
     position: absolute;
     bottom: 0;
@@ -102,10 +100,16 @@ input[type="text"]::placeholder {
 
 .titleinactive {
     color: rgba(78, 65, 47, 0.5);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
 }
 
 .titleactive, .titleinactive {
     font-weight: 900;
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
 }
 
 .steps {
@@ -150,6 +154,8 @@ input[type="text"]::placeholder {
     font-weight: bold;
     cursor: pointer;
     position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
 }
 
 .gender-box input[type="radio"], .pgender-box input[type="radio"] {
@@ -220,6 +226,8 @@ input[type="text"]::placeholder {
     color: rgba(78, 65, 47, 0.5);
     padding-left: 15px;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
 }
 
 .camera {
@@ -233,11 +241,18 @@ input[type="text"]::placeholder {
     max-width: 300px;
     font-size: 27px;
     line-height: 1.5;
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .message2 {
     padding-top: 30px;
     padding-bottom: 10px;
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
 }
 
 #bio {
@@ -245,6 +260,9 @@ input[type="text"]::placeholder {
     font-size: 21px;
     height: 200px;
     width: 715px;
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .info {
@@ -253,9 +271,10 @@ input[type="text"]::placeholder {
     font-size: 20px;
     color: #A6968C;
     padding-top: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
-button {
+.nextbutton {
     border: 2px solid #4E412F1A;
     border-radius: 8px;
     padding: 10px;

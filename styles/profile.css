@@ -1,12 +1,8 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500display=swap');
 
 .profile-container {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 80px;
     background-color: #FEEFE9;
     box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
     border-radius: 20px;
@@ -15,9 +11,19 @@
     flex-direction: column;
     padding: 10px;
     place-items: center;
+    margin: 80px auto 30px auto;
 }
 
-.profileview {
+.sectiontitle {
+    text-align: center;
+    color: #443226; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+#profileview {
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -27,6 +33,131 @@
     color: #443226; 
     font-family: 'Poppins', sans-serif;
     margin-left: auto;
-    padding: 10px;
+    padding: 17px;
     font-size: 13px;
+}
+
+.profdoginfo {
+    display: flex;
+    place-items: center;
+}
+
+.profdoginfo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.profdogpic {
+    width: 170px;
+    height: 170px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    margin-right: 15px;
+}
+
+.proftype, .profage, .proflocation {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    padding: 7px;
+    font-size: 12px;
+    background-color: #FFFAF5;
+    box-shadow: 0 4px 5px rgba(57, 32, 24, 0.1);
+    width: 170px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 19;
+}
+
+.profage {
+    margin: 40px 0px;
+}
+
+.proftype {
+    transform: translate(-5%, -20%);
+}
+
+.profloc {
+    transform: translate(15%, 130%);
+    z-index: 20;
+}
+
+.proflocicon {
+    max-height: 30px;
+    transform: translate(770%, -150%);
+}
+
+.profdog{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 33px; 
+    font-size: 35px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.profname {  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.profgender {
+    max-height: 42px;
+    padding-bottom: 5px;
+}
+
+.profdesc {
+    text-align: center;
+    max-width: 270px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profpicset {
+    display: flex;
+}
+
+.guypic {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    transform: translate(160%, 150%);
+}
+
+.profline {
+    border-bottom: 2px solid rgba(68, 50, 38, 0.3);
+    width: 80%;
+}
+
+#userprofile {
+
+    padding: 30px;
+}
+
+#dogprofile {
+    
+    padding: 30px;
+}
+
+.savebutton {
+    border: 2px solid #4E412F1A;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4E412F;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    box-sizing: border-box;
+    color: #FFFAF5;
+}
+
+button:hover, .pic:hover {
+    cursor: pointer;
 }
