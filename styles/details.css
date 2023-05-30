@@ -1,3 +1,4 @@
+/*3 added*/
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
@@ -49,7 +50,8 @@ input[type="text"], input[type="date"] {
     color: #4E412F;
 }
 
-input[type="text"]:focus, input[type="date"]:focus {
+/*added #bio*/
+input[type="text"]:focus, input[type="date"]:focus, #bio {
     outline: none;
 }
 
@@ -186,7 +188,8 @@ input[type="text"]::placeholder {
     font-weight: 600;
 }
 
-.gender-box span:hover, .pgender-box span {
+/*add ":hover" for pgender-box span*/
+.gender-box span:hover, .pgender-box span:hover {
     opacity: 1;
 }
 
@@ -255,14 +258,21 @@ input[type="text"]::placeholder {
     font-size: 23px;
 }
 
+/*bBio update*/
 #bio {
     padding-left: 23px;
-    font-size: 21px;
     height: 200px;
     width: 715px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #FFFAF5;
+    box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #4E412F;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
 }
 
 .info {
