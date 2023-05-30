@@ -166,7 +166,7 @@
 .userprof-container3 {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding-left: 140px;
     position: relative;
 }
 
@@ -184,107 +184,6 @@
     font-size: 20px;
 }
 
-input[type="text"], input[type="date"] {
-    border: none;
-    border-radius: 8px;
-    padding: 12px;
-    font-size: 16px;
-    background-color: #FFFAF5;
-    box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
-    width: 100%;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: #4E412F;
-}
-
-input[type="text"]:focus, input[type="date"]:focus, #bio:focus {
-    outline: none;
-}
-
-input[type="date"] {
-    content: attr(placeholder);
-    text-transform: uppercase;
-    color: #A6968C;
-}
-
-input[type="text"]::placeholder {
-    color: #A6968C;
-}
-
-.gender-box, .pgender-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 88%;
-    height: 30px;
-    background-color: #FEEAEA;
-    border-radius: 10px;
-    padding: 10px 20px;
-    box-shadow: 2px 3px 8px rgba(66, 38, 29, 0.235);
-}
-
-.pgender-box {
-    width: 60%;
-}
-
-.gender-box label, .pgender-box label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 100%;
-    color: #4E412F;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-}
-
-.gender-box input[type="radio"], .pgender-box input[type="radio"]{
-    display: none;
-}
-
-.gender-box input[type="radio"]:checked + span, .pgender-box input[type="radio"]:checked + span {
-    background-color: #4E412F;
-    color: #FFE7D1;
-    opacity: 1;
-}
-
-.gender-box span, .pgender-box span {
-    width: 30px;
-    height: 0px;
-    border-radius: 10px;
-    background-color: #FEEAEA;
-    color: #4E412F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    opacity: 0.5;
-    padding: 20px 26px;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-}
-
-.gender-box span:hover, .pgender-box span {
-    opacity: 1;
-}
-
-.gender-box label:not(:last-child)::after, .pgender-box label:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: -15px;
-    transform: translateY(-50%);
-    height: 80%;
-    border-left: 1px solid #4e412f73;
-}
-
 .profcamera {
     width: 230px;
     height: 230px;
@@ -293,7 +192,7 @@ input[type="text"]::placeholder {
     margin-top: 40px;
 }
 
-#bio {
+#dogbio {
     padding-left: 23px;
     font-size: 16px;
     height: 150px;
@@ -309,15 +208,6 @@ input[type="text"]::placeholder {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-}
-
-.info {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 20px;
-    color: #A6968C;
-    padding-top: 10px;
-    font-family: 'Inter', sans-serif;
 }
 
 .psavebutton, .dsavebutton {
