@@ -229,6 +229,6 @@
     bottom: 22px;
 }
 
-button:hover, .pic:hover {
+button:hover, .profcamera:hover {
     cursor: pointer;
 }
