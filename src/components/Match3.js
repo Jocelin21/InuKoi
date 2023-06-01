@@ -21,7 +21,7 @@ function Match3() {
         </header>
         <div className="body-container">
           <div className="dog">
-            <div className="name">Manis</div>
+            <div className="mdogname">Manis</div>
             <img className="doggender" src="image/female.png" />
           </div>
           <div className="doginfo">

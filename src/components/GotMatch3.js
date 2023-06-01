@@ -26,7 +26,7 @@ function GotMatch3() {
             <img className="girlpic" src="image/girlpic2.png" />
           </div>
           <div className="gmdog">
-            <div className="name">Manis </div>
+            <div className="mdogname">Manis </div>
             <img className="doggender" src="image/female.png" />
           </div>
           <div className="gmdesc">Looking for other doggies to play tag with!</div>

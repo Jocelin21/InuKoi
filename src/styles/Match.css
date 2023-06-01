@@ -8,8 +8,7 @@
 
 body {
     margin: 0;
-    background-color: #ffe9dc
-
+    background-color: #ffe9dc;
 }
 
 .header-container {
@@ -62,8 +61,8 @@ body {
 
 .profilepic {
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     right: 50px;
     position: absolute;
     border-radius: 50%;
@@ -90,7 +89,7 @@ body {
     text-align: center;
 }
 
-.name {  
+.mdogname {  
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: #443226;
@@ -100,15 +99,15 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 50px;
+    padding-bottom: 20px;
     font-size: 35px;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    color: #443226;
 }
 
 .doggender {
     max-height: 30px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .doginfo {
@@ -134,17 +133,16 @@ body {
 }
 
 .type, .dogage, .location {
+    font-family: 'Poppins', sans-serif;
     border-radius: 8px;
     padding: 5px;
     font-size: 12px;
     background-color: #FFFAF5;
-    box-shadow: 0 8px 10px rgba(57, 32, 24, 0.135);
+    box-shadow: 0 4px 5px rgba(57, 32, 24, 0.1);
     width: 170px;
     box-sizing: border-box;
     text-align: center;
     z-index: 90;
-    font-family: 'Poppins', sans-serif;
-    color: #443226;
 }
 
 .dogage {
@@ -163,16 +161,17 @@ body {
 
 .desc {
     text-align: center;
-    max-width: 270px;
+    max-width: 290px;
+    height: 60px;
     padding-top: 33px; 
     padding-bottom: 15px;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    color: #443226;
 }
 
 .icon {
     display: flex;
+    padding-top: 10px;
 }
 
 .buttonmatch {

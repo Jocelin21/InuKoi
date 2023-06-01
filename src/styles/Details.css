@@ -42,7 +42,7 @@
     color: #4E412F;
 }
 
-input[type="text"], input[type="date"] {
+#oname, #ocountry, #ocity, #dname, #dbreed, #dage, input[type="date"] {
     border: none;
     border-radius: 8px;
     padding: 12px;
@@ -50,13 +50,14 @@ input[type="text"], input[type="date"] {
     background-color: #FFFAF5;
     box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
     width: 100%;
+    height: 48px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #4E412F;
 }
 
-input[type="text"]:focus, input[type="date"]:focus {
+input[type="text"]:focus, input[type="date"]:focus, #bio {
     outline: none;
 }
 
@@ -64,16 +65,16 @@ input[type="date"] {
     content: attr(placeholder);
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 16px;
     color: #A6968C;
 
 }
 
-input[type="text"]::placeholder {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 23px;
+#oname::placeholder, #ocountry::placeholder, #ocity::placeholder, #dname::placeholder, #dbreed::placeholder, #dage::placeholder, #bio::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     color: #A6968C;
 }
 
@@ -201,7 +202,7 @@ input[type="text"]::placeholder {
     font-weight: 600;
 }
 
-.gender-box span:hover, .pgender-box span {
+.gender-box span:hover, .pgender-box span:hover {
     opacity: 1;
 }
 
@@ -241,6 +242,8 @@ input[type="text"]::placeholder {
     color: rgba(78, 65, 47, 0.5);
     padding-left: 15px;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
 }
 
 .camera {
@@ -249,7 +252,11 @@ input[type="text"]::placeholder {
     padding-bottom: 5px;
 }
 
+
 .message1 {
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     margin-top: 45px;
     max-width: 300px;
     font-size: 27px;
@@ -257,18 +264,32 @@ input[type="text"]::placeholder {
 }
 
 .message2 {
+    color: #4E412F;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
 #bio {
     padding-left: 23px;
-    font-size: 21px;
     height: 200px;
     width: 715px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #FFFAF5;
+    box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #4E412F;
 }
 
 .info {
+    font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;

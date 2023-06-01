@@ -4,6 +4,7 @@ function HumanProfile() {
       <div>
         <meta charSet="utf-8" />
         <title>Owner Profile</title>
+        <style dangerouslySetInnerHTML={{__html: "\n    body {\n        background: #FFDEDE;;\n    }\n" }} />
         <link rel="stylesheet" href="styles/details.css" />
         <div className="container">
           <div className="title-container">

@@ -14,8 +14,8 @@ function Preference() {
             <div className="prefcontainer">
               <div className="preftitle">Match Preferences</div>
               <div className="prefdesc">We would like to know your preferences before we help you match!</div>
-              <div className="breed">Breed</div>
-              <div className="breed-box">
+              <div className="pbreed">Breed</div>
+              <div className="pbreed-box">
                 <label>
                   <input type="radio" name="type" defaultValue="any" />
                   <span>Any</span>
@@ -29,13 +29,13 @@ function Preference() {
                   <span>Same</span>
                 </label>
               </div>
-              <div className="location1">Location</div>
-              <div className="locationbox">
-                <button className="loccount">
+              <div className="plocation1">Location</div>
+              <div className="plocationbox">
+                <button className="ploccount">
                   <div className="select">Select Country</div>
                   <img className="prefdown" src="image/down.png" />
                 </button>
-                <button className="loccity">
+                <button className="ploccity">
                   <div className="select">Select City</div>
                   <img className="prefdown" src="image/down.png" />
                 </button> 
@@ -48,7 +48,7 @@ function Preference() {
                 <div className="modnotif">You can modify your preferences later from your profile.</div>
                 <div className="prefleft">
                   <a href="choose"><img className="prefback" src="image/back.png" /></a>
-                  <a href="choose"><button className="save">Save</button></a>
+                  <a href="choose"><button className="psave">Save</button></a>
                 </div>
               </div>
             </div>

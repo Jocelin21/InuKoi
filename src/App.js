@@ -26,6 +26,7 @@ import LoveChat from "./components/LoveChat"
 import Choose from "./components/Choose"
 import Home from "./components/Home"
 import Explore from "./components/Explore"
+import Profile from "./components/Profile";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
@@ -62,6 +63,7 @@ function App() {
           <Route exact path="/gotmatch3" element={<GotMatch3/>}/>
           <Route exact path="/welcome" element={<Welcome/>} />
           <Route exact path="/dashboard" element={<Dashboard/>} />
+          <Route exact path="/profile" element={<Profile/>} />
   
         </Routes>
       </Router>

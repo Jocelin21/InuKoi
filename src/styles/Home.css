@@ -57,7 +57,7 @@
     color: #443226;
 }
 
-section {
+#home, #about, #features, #community, #contact {
     font-size: 2rem;
     display: grid;
     height: 40rem;
@@ -171,8 +171,6 @@ section {
     font-family: 'Poppins', sans-serif;
     color: #443226;
 }
-
-
 
 .name {
     padding: 0px 70px 30px 70px;

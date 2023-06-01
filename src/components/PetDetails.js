@@ -37,14 +37,14 @@ function PetDetails() {
         <div className="info-container2">
           <div className="gender">Gender</div>
           <div className="pgender-box">
-            <label>
-              <input type="radio" name="gender" defaultValue="male" />
-              <span>Male</span>
-            </label>
-            <label>
-              <input type="radio" name="gender" defaultValue="female" />
-              <span>Female</span>
-            </label>
+          <label>
+            <input type="radio" name="gender" defaultValue="male" />
+            <span>Male</span>
+          </label>
+          <label>
+            <input type="radio" name="gender" defaultValue="female" />
+            <span>Female</span>
+          </label>
           </div>
           <div className="dpicture">
             <div className="pic"><img className="camera" src="image/camera.png" /></div>

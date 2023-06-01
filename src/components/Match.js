@@ -22,7 +22,7 @@ function Match() {
       </header>
       <div className="body-container">
         <div className="dog">
-          <div className="name">Kopi</div>
+          <div className="mdogname">Kopi</div>
           <img className="doggender" src="image/gender.png" />
         </div>
         <div className="doginfo">

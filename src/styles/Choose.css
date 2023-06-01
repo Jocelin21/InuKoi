@@ -70,11 +70,11 @@
     color: #4E412F;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-decoration: none;
     border-radius: 8px;
-    box-shadow: inset 0px 0px 5px rgba(31, 17, 9, 0.5);
+    box-shadow: 0 10px 5px rgba(103, 72, 72, 0.311);
     border: none;
     width: 150px;
     height: 60px;
@@ -138,7 +138,7 @@
     padding: 12px;
     font-size: 15px;
     background-color: #4E412F;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
     width: 150px;
     color: #FFFAF5;
     font-family: 'Poppins', sans-serif;

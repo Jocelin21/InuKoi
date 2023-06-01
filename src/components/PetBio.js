@@ -29,7 +29,7 @@ function PetBio() {
         <div className="info-container3">
           <div className="message1">Hello, “Dog’s Name” and “Human Name”!</div>
           <div className="message2">Fill in your dog’s bio,</div>
-          <input type="text" id="bio" name="bio" placeholder="Write bio here" />
+          <textarea type="text" id="bio" name="bio" placeholder="Write bio here"></textarea> 
           <div className="info">You can edit this later</div>
           <a href="start"><button className="buttondetails">Finish</button></a> 
         </div>

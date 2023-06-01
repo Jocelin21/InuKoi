@@ -2,7 +2,7 @@ import "../styles/Welcome.css"
 
 function Start() {
     return (
-      <div>
+      <div className="welcomeBody">
         <meta charSet="utf-8" />
         <title>Start Matching</title>
         <link rel="stylesheet" href="styles/welcome.css" />

@@ -26,7 +26,7 @@ function GotMatch() {
             <img className="girlpic" src="image/girlpic.png" />
           </div>
           <div className="gmdog">
-            <div className="name">Kopi</div>
+            <div className="mdogname">Kopi</div>
             <img className="doggender" src="image/male.png" />
           </div>
           <div className="gmdesc">Romeo had Juliet, but I chews you to be my fur-ever love.</div>
