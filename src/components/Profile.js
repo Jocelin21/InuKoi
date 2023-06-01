@@ -53,7 +53,7 @@ function Profile() {
                   <div className="ownname">Name</div>
                   <input type="text" id="oname" name="oname" placeholder="Owner's Name" defaultValue="Ethan Anderson" />
                   <div className="ownbirth">Date of Birth</div>
-                  <input type="date" id="birth" name="birth" defaultValue="2006-04-25" />
+                  <input type="date" id="birth" name="birth" defaultValue="2000-01-01" />
                   <div className="owngender">Gender</div>
                   <div className="gender-box">
                     <label>

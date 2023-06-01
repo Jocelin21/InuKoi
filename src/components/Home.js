@@ -64,7 +64,7 @@ function Home() {
             </div>
             <div className="feature3-container">
               <div className="num">3</div>
-              <div className="featuredesc">Meet nearby pups your area!</div>
+              <div className="featuredesc">Check out other dog-related content!</div>
               <img className="phone3" src="image/phone3.png" />
             </div>
           </div>
@@ -75,7 +75,7 @@ function Home() {
             <div className="comcaption">Share your Pawsitive moments with us.</div>
             <div className="comcaption2">
               <div className="comcap">Join the community to</div>
-              <div className="comcap">Like, Comment, and Share posts!</div>
+              <div className="comcap">Like and Share posts!</div>
             </div>
             <a href= "/signup"><button className="buttonhome">Join now!</button></a>
             <img className="featureicon" src="image/featureicon.png" />

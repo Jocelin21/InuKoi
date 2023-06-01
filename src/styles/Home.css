@@ -260,17 +260,13 @@
 
 .comcaption2 {
     padding-top: 10px;
-    font-family: 'Poppins', sans-serif;
     color: #443226;
-}
-
-.comcap {
     font-family: 'Hepta Slab', serif;
     font-size: 19px;
     font-weight: 500;
     letter-spacing:2px;
     line-height: 1.4;
-    color: #443226;
+    width: 290px;
 }
 
 .join {
