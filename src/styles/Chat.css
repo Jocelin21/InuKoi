@@ -3,16 +3,25 @@
 .chat-container {
     position: absolute;
     top: 55%;
-    left: 30px;
+    margin-left: 30px;
     transform: translatey(-45%);
     background-color: #fff0e9;
-    box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
+    box-shadow: 0 4px 10px 0 rgba(50, 17, 27, 0.25);
     border-radius: 20px;
     width: 67%;
     height: 450px;
     display: flex;
     flex-direction: column;
     padding: 10px 35px;
+}
+
+.hchat-container {
+    background-color: #FEEFE9;
+    box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin: 90px auto 30px auto;
 }
 
 .chattop {
@@ -24,7 +33,6 @@
     display: flex;
     align-items: center;
 }
-
 
 .ccdogpic{
     width: 80px;
@@ -97,6 +105,10 @@
     font-size: 15px;
 }
 
+.chattings {
+    height: 100%;
+}
+
 .chatbottom {
     display: flex;
     justify-content: space-around;
@@ -121,6 +133,7 @@
     border: none;
     letter-spacing: 1px;
     font-size: 15px;
+    color: #FFFAF5;
 }
 
 #textsmtg:focus{
@@ -163,8 +176,9 @@
     padding-top: 15px;
 }
 
-.contact1 {
+.contact1, .contact2 {
     display: flex;
+    padding-bottom: 30px;
 }
 
 .contactinfo {
@@ -190,6 +204,10 @@
     text-align: left;
     font-weight: 300;
     font-size: 15px;
+    max-width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
 }
 
 .cpicset {
@@ -199,7 +217,6 @@
 .cdogpic{
     width: 70px;
     height: 70px;
-    z-index: -10;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
     display: flex;
@@ -227,3 +244,156 @@
 }
 
 a { text-decoration: none; }
+
+.hchat-top {
+    display: flex;
+    background-color: #FFDDDB;
+    width: 100%;
+    height: 69px;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hchattitle {
+    padding-left: 90px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-container {
+    display: flex;
+    padding-right: 40px;
+    align-items: center;
+}
+
+#srch {
+    border-radius: 30px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    z-index: 29;
+    transform: translateX(12%);
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#srch:focus {
+    outline: none;
+}
+
+.search {
+    max-height: 17px;
+    z-index: 30;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+
+.hchat-filter {
+    display: flex;
+    justify-content: space-around;
+    height: 69px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hchatfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hchattype {
+    padding: 20px 0 15px;
+}
+
+.hchatline {
+    border-bottom: 2px solid rgba(68, 50, 38);
+    width: 100px;
+}
+
+.nohchatline {
+    border-bottom: 2px solid rgba(68, 50, 38, 0);
+    width: 100px;
+}
+
+.hchat-content {
+    padding-top: 30px;
+}
+
+/*For chat.html*/
+
+.chpicset {
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.chdogpic{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.chmate {
+    position: absolute;
+    max-width: 25px;
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+.chgirlpic {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    transform: translate(150%, 130%);
+}
+
+.chdog{
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+}
+
+.chgender {
+    max-width: 30px;
+    margin: 7px;
+}
+
+.chlastmsg {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 100%;
+    padding-left: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+.chcontactinfo {
+    display: flex;
+    flex-direction: column;
+    width: 380px
+}

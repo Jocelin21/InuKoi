@@ -35,11 +35,9 @@ function Login() {
           <div className="pass">Password</div>
           <input type="password" id="password" name="password" value ={password}
           onChange ={(e) => setPassword(e.target.value)} placeholder="Enter your password" />
-          <button className="buttonsignup" onClick ={() => logInWithEmailAndPassword(email, password)}>Log in</button>
-          <button className ="buttonsignup" onClick={signInWithGoogle}>Login with Google</button>
-        <div>
-          <Link to ="/reset">Forgot Password</Link>
-        </div>
+          <a href="reset" className="forgotcap">Forgot Password</a>
+          <button className="buttonlogin" onClick ={() => logInWithEmailAndPassword(email, password)}>Log in</button>
+          <button className ="buttonlogingoog" onClick={signInWithGoogle}>Login with Google</button>
           <p className="signmessage">Don’t have an account yet? <a href="signup" className="bold-italic">Sign up</a> now!</p>
         </div>
       </div>

@@ -29,7 +29,7 @@ function Preference() {
                   <span>Same</span>
                 </label>
               </div>
-              <div className="location">Location</div>
+              <div className="location1">Location</div>
               <div className="locationbox">
                 <button className="loccount">
                   <div className="select">Select Country</div>
@@ -47,8 +47,8 @@ function Preference() {
               <div className="preflow">
                 <div className="modnotif">You can modify your preferences later from your profile.</div>
                 <div className="prefleft">
-                  <a href="choose.html"><img className="prefback" src="image/back.png" /></a>
-                  <a href="choose.html"><button className="save">Save</button></a>
+                  <a href="choose"><img className="prefback" src="image/back.png" /></a>
+                  <a href="choose"><button className="save">Save</button></a>
                 </div>
               </div>
             </div>

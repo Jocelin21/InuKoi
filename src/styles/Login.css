@@ -20,16 +20,16 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);  
-  height: 92%;
+  height: 96%;
   width: 36.5%;
   box-shadow: 0 16px 40px 0 rgba(0, 0, 0, 0.25);
 }
 
 .auth2-container {
-  margin: 80px 50px 0px;
+  margin: 50px 50px 0px;
 }
 
-input[type="email"], input[type="password"], input[type="text"] {
+#email, #password, #username {
   border: 2px solid #4E412F1A;
   border-radius: 8px;
   padding: 12px;
@@ -45,8 +45,16 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   outline: none;
 }
 
+#email::placeholder, #password::placeholder, #username::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  color: #4e412fa7;
+}
+
 .mail, .pass, .username{
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 8px;
 }
@@ -54,24 +62,41 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   padding-top: 8px;
 }
 
-.buttonsignup{
+.buttonsignup, .buttonsigngoog, .buttonlogin, .buttonlogingoog {
   margin-top: 40px;
-  border: 2px solid #4E412F1A;
+  border: none;
   border-radius: 8px;
   padding: 15px;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   background-color: #4E412F;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   box-sizing: border-box;
   color: #FFFAF5;
 }
 
+.buttonsigngoog, .buttonlogingoog {
+  margin-top: 25px;
+  background-color:#FFFAF5;
+  color: #4E412F;
+}
+
+.buttonlogin {
+  margin-top: 30px;
+}
 
 .signmessage {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+}
+
+.forgotcap {
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: #4E412F;
+  float: right;
+  padding-top: 8px;
 }
 
 .bold-italic {

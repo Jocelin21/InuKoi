@@ -1,7 +1,6 @@
-import "../styles/Match.css";
+import "../styles/Match.css"
 
-
-function GotMatch() {
+function GotMatch2() {
     return (
       <div>
         <meta charSet="utf-8" />
@@ -10,7 +9,7 @@ function GotMatch() {
           <div className="header-container">
             <a href="/"><img className="logonamematch" src="image/logoname.png" /></a>
             <div className="nav">
-              <a className="active" href="match">Match</a>
+              <a className="active" href="choose">Match</a>
               <a className="inactive" href="chat">Chat</a>
               <a className="inactive" href="explore">Explore</a>            
             </div>
@@ -22,18 +21,18 @@ function GotMatch() {
         <div className="gm-container1">
           <div className="gmnotif">You matched with...</div>
           <div className="picset">
-            <img className="dogpic" src="image/dogpic.png" />
-            <img className="girlpic" src="image/girlpic.png" />
+            <img className="dogpic" src="image/dogpic2.png" />
+            <img className="girlpic" src="image/guypic2.png" />
           </div>
           <div className="gmdog">
-            <div className="name">Kopi</div>
+            <div className="name">Brownie</div>
             <img className="doggender" src="image/male.png" />
           </div>
-          <div className="gmdesc">Romeo had Juliet, but I chews you to be my fur-ever love.</div>
+          <div className="gmdesc">Let’s fall head over paws for each other :)</div>
           <div className="gmicon">
-            <button className="gmnavi"><img className="gmback" src="image/back.png" /></button>
-            <a href="chat"><button className="gmnavig"><img className="gmchat" src="image/chat.png" /></button></a>
-            <button className="gmnavi"><img className="gmnext" src="image/next.png" /></button>
+            <a href="gotmatch"><button className="gmnavi"><img className="gmback" src="image/back.png" /></button></a>
+            <a href><button className="gmnavig"><img className="gmchat" src="image/chat.png" /></button></a>
+            <a href="gotmatch"><button className="gmnavi"><img className="gmnext" src="image/next.png" /></button></a>
           </div>
         </div>
         <div className="recentcontact">
@@ -48,4 +47,4 @@ function GotMatch() {
     );
   }
 
-export default GotMatch
+export default GotMatch2

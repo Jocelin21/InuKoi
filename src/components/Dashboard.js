@@ -40,7 +40,7 @@ function Dashboard() {
           Logout
           </button>
           <div>
-          Continue to Match! <Link to="/match">match</Link> now.
+          Continue to Match! <Link to="/choose">match</Link> now.
             </div>
           </div>
           </div>

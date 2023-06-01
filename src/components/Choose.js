@@ -28,17 +28,17 @@ function Choose () {
                 <div className="chooselove">
                   <div className="choosetitle">Love</div>
                   <img className="chooseicon" src="image/love.png" />
-                  <a href="match"><button className="chooseselect">Select</button></a>
+                  <a href="match1"><button className="chooseselect">Select</button></a>
                 </div>
                 <div className="choosepref">
                   <div className="editpreftxt">Edit Your Preferences</div>
-                  <a href="preference.html"><button className="chooseedit">Edit</button></a>
+                  <a href="preference"><button className="chooseedit">Edit</button></a>
                   <div className="circle3" />
                 </div>
                 <div className="chooseplay">
                   <div className="choosetitle">Play</div>
                   <img className="chooseicon" src="image/play.png" />
-                  <a href="match.html"><button className="chooseselect">Select</button></a>
+                  <a href="match3"><button className="chooseselect">Select</button></a>
                 </div>
               </div>
             </div>

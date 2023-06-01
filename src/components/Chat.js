@@ -3,84 +3,77 @@ import "../styles/Match.css"
 
 function Chat() {
     return (
-      <div>
-        <meta charSet="utf-8" />
-        <title>InuKoi</title>
-        <link rel="stylesheet" href="styles/content.css" />
-        <link rel="stylesheet" href="styles/chat.css" />
-        <header>
-          <div className="header-container">
-            <a href="/"><img className="logonamematch" src="image/logoname.png" /></a>
-            <div className="nav">
-              <a className="inactive" href="choose">Match</a>
-              <a className="active" href="chat">Chat</a>
-              <a className="inactive" href="explore">Explore</a>            
-            </div>
-            <a href="profile">
-              <img className="profilepic" src="image/profilepic.png" />
-            </a>
-          </div>
-        </header>
-        <div className="chat-container">
-          <div className="chattop">
-            <div className="contacttitle">
-              <div className="cpicset">
-                <img className="ccmate" src="image/mate.png" />
-                <img className="ccdogpic" src="image/dogpic.png" />
-                <img className="ccgirlpic" src="image/girlpic.png" />
+        <div>
+          <meta charSet="utf-8" />
+          <title>InuKoi</title>
+          <header>
+            <div className="header-container">
+              <a href="/"><img className="logonamematch" src="image/logoname.png" /></a>
+              <div className="nav">
+                <a className="inactive" href="choose">Match</a>
+                <a className="active" href="chat">Chat</a>
+                <a className="inactive" href="explore">Explore</a>            
               </div>
-              <div className="ccdog">
-                <a href="chat"><div className="ccname">Kopi</div></a>
-                <img className="ccgender" src="image/gender.png" />
+              <a href="profile">
+                <img className="profilepic" src="image/profilepic.png" />
+              </a>
+            </div>
+          </header>
+          <div className="hchat-container">
+            <div className="hchat-top">
+              <div className="hchattitle">Contact</div>
+              <div className="search-container">
+                <input type="text" id="srch" name="srch" placeholder="Search" />
+                <img className="search" src="image/search.png" />
               </div>
             </div>
-          </div>
-          <div className="chattings">
-            <div className="user">Hey I’m Aqua, and Ai is my Shiba Inu.</div>
-            <div className="user2">Heyy Aqua, I’m Ruby and the shiba you see in my pfp is Kopi!</div>
-            <div className="user">Ooh he’s so adorable :o I bet the two of them will fall in love in no time.</div>
-            <div className="user2">It’s been really hard to find another Shiba Inu in Jakarta, I’m glad I found one haha</div>
-          </div>
-          <div className="chatbottom">
-            <img className="phoneicon" src="image/phoneicon.png" />
-            <div className="chattype">
-              <img className="add" src="image/add.png" /> 
-              <input type="text" id="textsmtg" name="textsmtg" placeholder="Write something..." />
-              <img className="send" src="image/send.png" />
-            </div>
-            <img className="mic" src="image/mic.png" />
-          </div>
-        </div>
-        <div className="recentcontact">
-          <div className="sidetitle">Recent Chat</div>
-          <div className="side-container">
-            <div className="contact1">
-              <div className="cpicset">
-                <img className="cmate" src="image/mate.png" />
-                <img className="cdogpic" src="image/dogpic.png" />
-                <img className="cgirlpic" src="image/girlpic.png" />
+            <div className="hchat-filter">
+              <div className="hchatfil">
+                <a href="chat"><div className="hchattype">All</div></a>
+                <div className="hchatline" />
               </div>
-              <div className="contactinfo">
-                <div className="cdog">
-                  <a href="chat"><div className="cname">Kopi</div></a>
-                  <img className="cgender" src="image/gender.png" />
+              <div className="hchatfil">
+                <a href="lovechat"><div className="hchattype">Love</div></a>
+                <div className="nohchatline" />
+              </div>
+              <div className="hchatfil">
+                <a href="playchat"><div className="hchattype">Play</div></a>
+                <div className="nohchatline" />
+              </div>
+            </div>
+            <div className="hchat-content">
+              <div className="contact1">
+                <div className="chpicset">
+                  <img className="chmate" src="image/mate.png" />
+                  <img className="chdogpic" src="image/dogpic.png" />
+                  <img className="chgirlpic" src="image/girlpic.png" />
                 </div>
-                <div className="clastmsg">It's been really hard...</div>
+                <div className="chcontactinfo">
+                  <div className="chdog">
+                    <a href="chat1"><div className="chname">Kopi</div></a>
+                    <img className="chgender" src="image/male.png" />
+                  </div>
+                  <div className="chlastmsg">It’s been really hard to find another Shiba Inu in Jakarta, I’m glad I found one haha</div>
+                </div>
+              </div>
+              <div className="contact2">
+                <div className="chpicset">
+                  <img className="chmate" src="image/ball.png" />
+                  <img className="chdogpic" src="image/dogpic3.png" />
+                  <img className="chgirlpic" src="image/girlpic2.png" />
+                </div>
+                <div className="chcontactinfo">
+                  <div className="chdog">
+                    <a href="chat2"><div className="chname">Manis</div></a>
+                    <img className="chgender" src="image/female.png" />
+                  </div>
+                  <div className="chlastmsg">Hi my name’s Hori, I’m looking for a playmate for my dog Manis!</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <button className="gmnavi"><img className="gmnext" src="image/next.png" /></button>
-        <div className="recentcontact">
-          <div className="sidetitle">Recent Chat</div>
-          <div className="sidecontent">
-            <div className="sidecap1">It's still empty</div>
-            <img className="nochat" src="image/nochat.png" />
-            <div className="sidecap2">start chatting with one</div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  );
+}
 
 export default Chat

@@ -77,7 +77,7 @@ function Home() {
               <div className="comcap">Join the community to</div>
               <div className="comcap">Like, Comment, and Share posts!</div>
             </div>
-            <a href><button className="buttonhome">Join now!</button></a>
+            <a href= "/signup"><button className="buttonhome">Join now!</button></a>
             <img className="featureicon" src="image/featureicon.png" />
           </div>
           <img className="postexample" src="image/postexample.png" />

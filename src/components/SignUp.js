@@ -23,7 +23,7 @@ function SignUp() {
 
   useEffect(() => {
     if (loading) return;
-    if (user) navigate("/match", {replace:true});
+    if (user) navigate("/welcome", {replace:true});
   }, [user, loading]);
 
   return (
@@ -35,7 +35,7 @@ function SignUp() {
         <div className="auth2-container">
           <div className="username">Username</div>
           <input type="text" id="username" name="username" place value ={name}
-          onChange ={(e) => setName(e.target.value)} holder="Enter your username" />
+          onChange ={(e) => setName(e.target.value)} placeholder="Enter your username" />
           <div className="mail">Email</div>
           <input type="email" id="email" name="email" value ={email}
           onChange ={(e) => setEmail(e.target.value)} placeholder="Enter your email address" />
@@ -43,7 +43,7 @@ function SignUp() {
           <input type="password" id="password" name="password" value ={password}
           onChange ={(e) => setPassword(e.target.value)} placeholder="Enter your password" />
           <button className="buttonsignup" onClick={register}>Sign Up</button>
-          <button className ="buttonsignup" onClick ={signInWithGoogle}>Register with Google</button>
+          <button className ="buttonsigngoog" onClick ={signInWithGoogle}>Register with Google</button>
           <p className="signmessage">Already have an account? <a href="login" className="bold-italic">Login</a> now!</p>
         </div>
       </div>

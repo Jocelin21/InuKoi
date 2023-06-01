@@ -11,7 +11,7 @@ function Match() {
         <div className="header-container">
           <a href="/"><img className="logonamematch" src="image/logoname.png" /></a>
           <div className="nav">
-            <a className="active" href="match">Match</a>
+            <a className="active" href="choose">Match</a>
             <a className="inactive" href="chat">Chat</a>
             <a className="inactive" href="explore">Explore</a>            
           </div>
@@ -36,7 +36,7 @@ function Match() {
         </div>
         <div className="desc">Romeo had Juliet, but I chews you to be my fur-ever love.</div>
         <div className="icon">
-          <button className="buttonmatch"><img className="reject" src="image/reject.png" /></button>
+        <a href="match2"><button className="buttonmatch"><img className="reject" src="image/reject.png" /></button></a>
           <a href="gotmatch"><button className="buttonmatch"><img className="accept" src="image/accept.png" /></button></a>
         </div>
       </div>

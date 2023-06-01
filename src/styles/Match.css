@@ -34,6 +34,9 @@ body {
     transition: all 0.3s ease-in-out;
     letter-spacing: 3%;
     font-family: 'Poppins', sans-serif;
+}
+
+.inactive {
     color: #443226;
 }
 
@@ -51,7 +54,6 @@ body {
     color: #bb250d;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: #443226;
 }
 
 .active:hover {
@@ -98,7 +100,6 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 20px;
     font-size: 35px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -107,7 +108,7 @@ body {
 
 .doggender {
     max-height: 30px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .doginfo {
