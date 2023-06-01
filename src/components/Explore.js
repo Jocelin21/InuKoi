@@ -7,7 +7,7 @@ function Explore() {
     <div>
       <meta charSet="utf-8" />
       <title>InuKoi Profile</title>
-      <style dangerouslySetInnerHTML={{__html: "\n    body {\n        background: linear-gradient(179.73deg, #FFE8DC -19.57%, #DBF2FF 122.72%);;\n    }\n" }} />
+      <style dangerouslySetInnerHTML={{__html: "\n    body {\n        background: linear-gradient(179.73deg, #FFE8DC -19.57%, #FFDADA 122.72%);;\n    }\n" }} />
       <header>
         <div className="header-container">
           <a href="/"><img className="logonamematch" src="image/logoname.png" /></a>
