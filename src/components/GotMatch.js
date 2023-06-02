@@ -31,9 +31,9 @@ function GotMatch() {
           </div>
           <div className="gmdesc">Romeo had Juliet, but I chews you to be my fur-ever love.</div>
           <div className="gmicon">
-            <button className="gmnavi"><img className="gmback" src="image/back.png" /></button>
-            <a href="chat"><button className="gmnavig"><img className="gmchat" src="image/chat.png" /></button></a>
-            <button className="gmnavi"><img className="gmnext" src="image/next.png" /></button>
+            <a href="gotmatch2"><button className="gmnavi"><img className="gmback" src="image/back.png" /></button></a>
+            <a href="chat1"><button className="gmnavig"><img className="gmchat" src="image/chat.png" /></button></a>
+            <a href="gotmatch2"><button className="gmnavi"><img className="gmnext" src="image/next.png" /></button></a>
           </div>
         </div>
         <div className="recentcontact">
