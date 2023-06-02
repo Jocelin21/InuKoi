@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #FFEBE0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -39,7 +39,7 @@
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
     color: #443226;
-    margin-left: 70px;
+    margin-left: 4.375rem;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     letter-spacing: 1px;
@@ -50,7 +50,7 @@
 }
 
 .homenav a:last-child {
-    margin-right: 30px;
+    margin-right: 1.875rem;
     margin-left: auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -62,7 +62,7 @@
     display: grid;
     height: 40rem;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 5.625rem;
     font-family: 'Poppins', sans-serif;
     color: #443226;
 }
@@ -73,8 +73,8 @@
 
 .logonamehome {
     float: left;
-    padding-top: 15px;
-    max-height: 510px;
+    padding-top: 0.9375rem;
+    max-height: 31.875rem;
 }
 
 .homecaption {
@@ -88,30 +88,30 @@
 
 .homecaption1 {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 900;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     color: #443226;
 }
 
 .homecaption2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-family: 'Poppins', sans-serif;
     color: #443226;
-    padding-top: 5px;
+    padding-top: 0.3125rem;
 }
 
 .downloadbutton {
     margin: 0 auto;
-    padding-top: 40px; 
+    padding-top: 2.5rem; 
     display: block;
 }
 
 .appstore-container, .googleplay-container {
     padding: 20px;
     display: block;
-    height: 100px;
-    width: 320px;
+    height: 6.25rem;
+    width: 20rem;
     margin: 0 10px;
     filter: drop-shadow(0px 0px 10px rgba(70, 27, 19, 0.219));
 }
@@ -129,37 +129,37 @@
     color: #443226;
     text-align: center;
     height: 32rem;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .title{
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 900;
     color: #443226;
 }
 
 .aboutapp {
     font-family: 'Glory', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 500;
     color: #CC3300;
     position: relative;
-    top: -35px;
+    top: -2.1875rem;
 }
 
 .aboutcaption {
-    max-width: 600px;
+    max-width: 37.5rem;
     margin: auto;
     position: relative;
-    top: -45px;
+    top: -2.8125rem;
     font-family: 'Poppins', sans-serif;
     color: #443226;
 }
 
 .founders {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
     color: #443226;
 }
@@ -184,7 +184,7 @@
     background: linear-gradient(#FFE7D1 40%, #FFF2EC);
     place-items: center;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-family: 'Poppins', sans-serif;
     color: #443226;
 }
@@ -196,22 +196,22 @@
 }
 
 .feature1-container, .feature3-container{
-    margin-top: -35px;
+    margin-top: -2.1875rem;
 }
 .feature2-container {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }
 
 .feature {
     display: flex;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .num {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Poppins', sans-serif;
-    width: 85px;
-    height: 85px;
+    width: 5.3125rem;
+    height: 5.3125rem;
     border-radius: 50%;
     background-color: #4E412F;
     color: #FFE7D1;  
@@ -228,11 +228,11 @@
 }
 
 .phone1, .phone3, .phone2 {
-    width: 160px;
+    width: 10rem;
     filter: drop-shadow(0px 0px 10px rgba(137, 88, 32, 0.511));
 }
 .phone2 {
-    width:380px;
+    width:23.75rem;
 }
 
 #community {
@@ -244,15 +244,15 @@
 }
 
 .com-container {
-    margin: 10px 40px;
+    margin: 0.625rem 2.5rem;
 }
 
 .comcaption {
     font-family: 'Hepta Slab', serif;
-    font-size: 45px;
+    font-size: 2.8125rem;
     color: #443226;
     padding-top: 29px;
-    max-width: 650px;
+    max-width: 40.625rem;
     letter-spacing:2px;
     font-weight: 500;
     line-height: 1.4;
@@ -262,11 +262,11 @@
     padding-top: 10px;
     color: #443226;
     font-family: 'Hepta Slab', serif;
-    font-size: 19px;
+    font-size: 1.1875rem;
     font-weight: 500;
     letter-spacing:2px;
     line-height: 1.4;
-    width: 290px;
+    width: 18.125rem;
 }
 
 .join {
@@ -290,13 +290,13 @@
     color: #FFFAF5;
     border: none;
     border-radius: 15px;
-    padding: 10px 20px;
-    width: 200px;
-    height: 78px;
-    font-size: 20px;
+    padding: 0.625rem 1.25rem;
+    width: 12.5rem;
+    height: 4.875rem;
+    font-size: 1.25rem;
     font-weight: bold;    
     position: relative;
-    top: -170px;
+    top: -10.625rem;
     box-shadow: 0 0 5px rgba(103, 72, 72, 0.311);
 }
 
@@ -305,19 +305,18 @@
 }  
   
 .featureicon {
-    width: 275px;
+    width: 13.1875rem;
     position: relative;
-    top: -80px;
-    left: 260px;
+    top: -5rem;
+    left: 16.25rem;
 }
 
 .postexample {
-    width: 350px;
-    height: auto;
-    max-height: 500px;
+    width: 21.875rem;
+    max-height: 31.25rem;
     margin-left: auto;
-    margin-right: 52px;
-    border-radius: 10px;
+    margin-right: 3.25rem;
+    border-radius: 0.625rem;
     box-shadow: 0 0 2px rgba(177, 89, 89, 0.126);
 }
 
@@ -327,31 +326,67 @@
 }
 
 .contact-container {
-    margin-top: -10px;
-    margin-left: 105px;
+    margin-top: -0.625rem;
+    margin-left: 6.5625rem;
 }
 
 .contacttitle {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 900;
     color: #FFE7D0;
 }
 
 .email-container, .phone-container {
     display: flex;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .contacticon-container {
-    height: 34px;
-    width: 40px;
-    padding-right: 28px;
+    height: 2.125rem;
+    width: 2.5rem;
+    padding-right: 1.75rem;
 }
 
 .contactinfo {
     font-family: 'Hepta Slab', serif;
     color: #FFF;
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 500;
+}
+
+/* responsive */
+/* large screen  */
+
+@media (max-width: 1170px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Tablet screen  */
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 890px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+/* Mobile screen  */
+
+@media (max-width: 710px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 5px;
+  }
 }
