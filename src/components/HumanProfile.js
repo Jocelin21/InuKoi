@@ -23,7 +23,7 @@ function HumanProfile() {
                 <div className="titleinactive">Pet Bio</div>
               </div>
             </div>
-            <a href="index"><img className="logonamedetails" src="image/logoname.png" /></a>
+            <a href="/"><img className="logonamedetails" src="image/logoname.png" /></a>
           </div>
           <div className="line" />
           <div className="info-container">

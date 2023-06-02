@@ -24,7 +24,7 @@ function PetBio() {
               <div className="titleactive">Pet Bio</div>
             </div>
           </div>
-          <a href="index.html"><img className="logonamedetails" src="image/logoname.png" /></a>
+          <a href="/"><img className="logonamedetails" src="image/logoname.png" /></a>
         </div>
         <div className="line" />
         <div className="info-container3">
