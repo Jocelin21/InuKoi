@@ -296,7 +296,7 @@
     font-size: 1.25rem;
     font-weight: bold;    
     position: relative;
-    top: -10.625rem;
+    top: -8.625rem;
     box-shadow: 0 0 5px rgba(103, 72, 72, 0.311);
 }
 
@@ -305,7 +305,7 @@
 }  
   
 .featureicon {
-    width: 13.1875rem;
+    width: 15.1875rem;
     position: relative;
     top: -5rem;
     left: 16.25rem;

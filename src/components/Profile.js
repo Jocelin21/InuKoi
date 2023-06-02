@@ -25,14 +25,13 @@ function Profile() {
       console.error(err);
       alert("An error occured while fetching user data!");
     }
+  };
 
     useEffect(() => {
       if (loading) return;
       if (!user) return navigate("/");
       fetchUserName();
     }, [user, loading]);
-
-  };
 
     return (
       <div>
@@ -155,6 +154,6 @@ function Profile() {
         </div>
       </div>
     );
-  }
+  };
 
 export default Profile
