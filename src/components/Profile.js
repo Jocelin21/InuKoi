@@ -1,7 +1,39 @@
 import "../styles/Profile.css"
 import "../styles/Match.css"
 import "../styles/Details.css"
+
+
+import React, { useEffect, useState } from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { Route, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { auth, db, logout } from "../firebase";
+import { query, collection, getDocs, where, updateDoc } from "firebase/firestore";
+
 function Profile() {
+  /*trying to fetch fullname*/
+  const [user, loading, error] = useAuthState(auth);
+  const [fullname, setFullName] = useState("");
+  const navigate = useNavigate();
+  const fetchUserName = async () => {
+    try {
+      const q = query(collection(db, "users"), where("uid", "==", user?.uid));
+      const doc = await getDocs(q);
+      const data = doc.docs[0].data();
+      setFullName(data.fullname); /*full name here*/
+    } catch (err) {
+      console.error(err);
+      alert("An error occured while fetching user data!");
+    }
+
+    useEffect(() => {
+      if (loading) return;
+      if (!user) return navigate("/");
+      fetchUserName();
+    }, [user, loading]);
+
+  };
+
     return (
       <div>
         <meta charSet="utf-8" />
@@ -119,7 +151,7 @@ function Profile() {
                 <button className="dsavebutton">Save</button>
               </div>
             </div></section>  
-          <a href="/"><button className="logout">Log Out</button></a>
+          <a href="/"><button className="logout" onClick= {logout}>Log Out</button></a>
         </div>
       </div>
     );
