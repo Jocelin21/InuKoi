@@ -6,21 +6,21 @@
     background-color: #FEEFE9;
     box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.2);
     border-radius: 20px;
-    width: 950px;
+    width: 59.375rem;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: .625rem;
     place-items: center;
-    margin: 80px auto 30px auto;
+    margin: 5rem auto 1.875rem auto;
 }
 
 .sectiontitle {
     text-align: center;
     color: #443226; 
     font-family: 'Poppins', sans-serif;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: .625rem;
     letter-spacing: 1px;
 }
 
@@ -34,14 +34,14 @@
     color: #443226; 
     font-family: 'Poppins', sans-serif;
     margin-left: auto;
-    padding: 17px;
-    font-size: 13px;
+    padding: 1.0625rem;
+    font-size: .8125rem;
 }
 
 .profdoginfo {
     display: flex;
     place-items: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .profdoginfo2 {
@@ -52,11 +52,11 @@
 .proftype, .profage, .proflocation {
     font-family: 'Poppins', sans-serif;
     border-radius: 8px;
-    padding: 8px;
-    font-size: 17px;
+    padding: .5rem;
+    font-size: 1.0625rem;
     background-color: #FFFAF5;
     box-shadow: 0 4px 5px rgba(57, 32, 24, 0.1);
-    width: 190px;
+    width: 11.875rem;
     box-sizing: border-box;
     text-align: center;
     z-index: 19;
@@ -84,9 +84,9 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 10px;
-    padding-top: 33px; 
-    font-size: 35px;
+    padding-bottom: .625rem;
+    padding-top: 2.0625rem; 
+    font-size: 2.1875rem;
     font-weight: 700;
     align-items: center;
 }
@@ -94,18 +94,18 @@
 .profname {  
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .profgender {
-    max-height: 42px;
-    padding-bottom: 5px;
+    max-height: 2.625rem;
+    padding-bottom: .3125rem;
 }
 
 .profdesc {
     text-align: center;
-    max-width: 270px;
-    padding-bottom: 50px;
+    max-width: 16.875rem;
+    padding-bottom: 3.125rem;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
 }
@@ -115,37 +115,37 @@
 }
 
 .profdogpic {
-    width: 220px;
-    height: 220px;
+    width: 13.75rem;
+    height: 13.75rem;
     z-index: 1;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
-    margin-right: 15px;
+    margin-right: .9375rem;
 }
 
 .guypic {
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
     z-index: 1;
     border-radius: 50%;
-    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    box-shadow: 0 .75rem .625rem rgba(57, 32, 24, 0.135);
     transform: translate(160%, 150%);
 }
 
 #userprofile, #dogprofile{
-    margin: 90px 0;
+    margin: 5.625rem 0;
     width: 80%;
 }
 
 .sideline1, .sideline2{
-    border-left: 2px solid rgba(68, 50, 38, 0.3);
-    height: 610px;
+    border-left: .125rem solid rgba(68, 50, 38, 0.3);
+    height: 38.125rem;
     margin-top: -50px;
 }
 
 .sideline2{
-    height: 730px;
+    height: 45.625rem;
 }
 
 .userprof-container {
@@ -154,42 +154,42 @@
 }
 
 .userprof-container2 {
-    padding-left: 80px;
+    padding-left: 5rem;
 }
 
 .userprof-container3 {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
+    padding-left: 6.25rem;
     position: relative;
 }
 
 .info-container, .info-container2, .info-container3 {
     margin-top: 15px;
-    width: 330px;
+    width: 20.625rem;
 }
 
 .ownname, .ownbirth, .owngender, .owncountry, .owncity, .dgname, .dgbreed, .dgage, .dggender, .dbio {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
     color: #4E412F;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .profcamera {
-    width: 230px;
-    height: 230px;
+    width: 14.375rem;
+    height: 14.375rem;
     border-radius: 50%;
-    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
-    margin-top: 40px;
+    box-shadow: 0 .75rem .625rem rgba(57, 32, 24, 0.135);
+    margin-top: 2.5rem;
 }
 
 #dogbio {
-    padding-left: 23px;
-    font-size: 16px;
-    height: 150px;
+    padding-left: 1.4375rem;
+    font-size: 1rem;
+    height: 9.375rem;
     width: 130%;
     color: #4E412F;
     overflow-wrap: break-word;

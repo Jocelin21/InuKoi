@@ -3,30 +3,30 @@
 .chat-container {
     position: absolute;
     top: 55%;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     transform: translatey(-45%);
     background-color: #fff0e9;
     box-shadow: 0 4px 10px 0 rgba(50, 17, 27, 0.25);
     border-radius: 20px;
     width: 67%;
-    height: 450px;
+    height: 35.125rem;
     display: flex;
     flex-direction: column;
-    padding: 10px 35px;
+    padding: .625rem 2.1875rem;
 }
 
 .hchat-container {
     background-color: #FEEFE9;
     box-shadow: 0 8px 40px 0 rgba(112, 38, 62, 0.25);
-    border-radius: 20px;
-    width: 700px;
+    border-radius: 1.25rem;
+    width: 43.75rem;
     height: 500px;
-    margin: 90px auto 30px auto;
+    margin: 5.625rem auto 1.875rem auto;
 }
 
 .chattop {
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 0.625rem;
+    padding-bottom: .9375rem;
 }
 
 .contacttitle {
@@ -35,29 +35,29 @@
 }
 
 .ccdogpic{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     z-index: -10;
     border-radius: 50%;
-    box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
+    box-shadow: 0 .75rem .625rem rgba(57, 32, 24, 0.135);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin-right: .9375rem;
 }
 
 .ccmate {
     position: absolute;
-    max-width: 25px;
+    max-width: 1.5625rem;
     z-index: 1;
     border-radius: 50%;
-    margin-top: -5px;
+    margin-top: -.3125rem;
 }
 
 .ccgirlpic {
     position: absolute;
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem;
+    height: 2.1875rem;
     z-index: 1;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
@@ -67,15 +67,15 @@
 .ccdog{
     display: flex;
     width: 100%;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .ccgender {
-    max-height: 40px;
-    margin: 7px;
+    max-height: 2.5rem;
+    margin: .4375rem;
 }
 
 .user {
@@ -85,11 +85,11 @@
     color: #FFFAF5;
     border-radius: 20px;
     background-color: #FFA9A9;
-    max-width: 500px;
-    padding: 10px 20px;
+    max-width: 31.25rem;
+    padding: .625rem 1.25rem;
     margin-left: auto;
-    box-shadow: -3px 3px 5px rgba(57, 32, 24, 0.128);
-    font-size: 15px;
+    box-shadow: -.1875rem .1875rem .3125rem rgba(57, 32, 24, 0.128);
+    font-size: .9375rem;
 }
 
 .user2 {
@@ -100,9 +100,9 @@
     background-color: #FFE7DA;
     max-width: 55%;
     padding: 10px 20px;
-    margin: 10px 0;
-    box-shadow: 3px 3px 5px rgba(57, 32, 24, 0.128);
-    font-size: 15px;
+    margin: .625rem 0;
+    box-shadow: .1875rem .1875rem .3125rem rgba(57, 32, 24, 0.128);
+    font-size: .9375rem;
 }
 
 .chattings {
@@ -113,7 +113,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .chattype {
@@ -124,15 +124,15 @@
 #textsmtg {
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     background-color: #FFA9A9;
-    width: 550px;
-    padding: 17px 70px;
+    width: 30   .375rem;
+    padding: 1.0625rem 4.375rem;
     margin-left: auto;
     box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.10);
     border: none;
-    letter-spacing: 1px;
-    font-size: 15px;
+    letter-spacing: .0625rem;
+    font-size: .9375rem;
     color: #FFFAF5;
 }
 
@@ -141,30 +141,30 @@
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: #FFFAF5;
-    letter-spacing: 1px;
-    font-size: 15px;
+    letter-spacing: .0625rem;
+    font-size: .9375rem;
 }
 
 #textsmtg::placeholder {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: #FFFAF5;
-    letter-spacing: 1px;
-    font-size: 15px;
+    letter-spacing: .0625rem;
+    font-size: .9375rem;
     opacity: 0.6;
 }
 
 .phoneicon, .mic {
-    max-height: 45px;
+    max-height: 2.8125rem;
 }
 
 .add {
-    max-height: 25px;
+    max-height: 1.5625rem;
     transform: translateX(170%);
 }
 
 .send {
-    max-height: 25px;
+    max-height: 1.5625rem;
     transform: translateX(-170%);
 }
 
@@ -173,12 +173,12 @@
 }
 
 .side-container {
-    padding-top: 15px;
+    padding-top: .9375rem;
 }
 
 .contact1, .contact2 {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .contactinfo {
@@ -189,22 +189,22 @@
 .cdog{
     display: flex;
     width: 100%;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
 
 .cgender {
-    max-height: 20px;
-    margin: 7px;
+    max-height: 1.25rem;
+    margin: .4375rem;
 }
 
 .clastmsg {
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-weight: 300;
-    font-size: 15px;
-    max-width: 160px;
+    font-size: .9375rem;
+    max-width: 10rem;
     text-overflow: ellipsis;
     overflow: hidden; 
     white-space: nowrap;
@@ -215,28 +215,28 @@
 }
 
 .cdogpic{
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin-right: .9375rem;
 }
 
 .cmate {
     position: absolute;
-    max-width: 25px;
+    max-width: 1.5625rem;
     z-index: 1;
     border-radius: 50%;
-    margin-top: -5px;
+    margin-top: -.3125rem;
 }
 
 .cgirlpic {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     z-index: 1;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
@@ -256,7 +256,7 @@ a { text-decoration: none; }
 }
 
 .hchattitle {
-    padding-left: 90px;
+    padding-left: 5.625rem;
     font-size: 23px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -264,19 +264,19 @@ a { text-decoration: none; }
 
 .search-container {
     display: flex;
-    padding-right: 40px;
+    padding-right: 2.5rem;
     align-items: center;
 }
 
 #srch {
-    border-radius: 30px;
+    border-radius: 1.875rem;
     border: none;
-    width: 250px;
-    height: 30px;
+    width: 15.625rem;
+    height: 1.875rem;
     z-index: 29;
     transform: translateX(12%);
-    padding-left: 20px;
-    font-size: 15px;
+    padding-left: 1.25rem;
+    font-size: .9375rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
@@ -292,7 +292,7 @@ a { text-decoration: none; }
 }
 
 .search {
-    max-height: 17px;
+    max-height: 1.0625rem;
     z-index: 30;
 }
 
@@ -303,9 +303,9 @@ a { text-decoration: none; }
 .hchat-filter {
     display: flex;
     justify-content: space-around;
-    height: 69px;
+    height: 4.3125rem;
     align-items: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
 }
@@ -317,52 +317,52 @@ a { text-decoration: none; }
 }
 
 .hchattype {
-    padding: 20px 0 15px;
+    padding: 1.25rem 0 .9375rem;
 }
 
 .hchatline {
     border-bottom: 2px solid rgba(68, 50, 38);
-    width: 100px;
+    width: 6.25rem;
 }
 
 .nohchatline {
     border-bottom: 2px solid rgba(68, 50, 38, 0);
-    width: 100px;
+    width: 6.25rem;
 }
 
 .hchat-content {
-    padding-top: 30px;
+    padding-top: 1.875rem;
 }
 
 .chpicset {
     display: flex;
-    padding-left: 60px;
-    padding-bottom: 20px;
+    padding-left: 3.75rem;
+    padding-bottom: 1.25rem;
 }
 
 .chdogpic{
-    width: 85px;
-    height: 85px;
+    width: 5.3125rem;
+    height: 5.3125rem;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin-right: .9375rem;
 }
 
 .chmate {
     position: absolute;
-    max-width: 25px;
+    max-width: 1.5625rem;
     z-index: 1;
     border-radius: 50%;
-    margin-top: -5px;
+    margin-top: -.3125rem;
 }
 
 .chgirlpic {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     z-index: 1;
     border-radius: 50%;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
@@ -372,24 +372,24 @@ a { text-decoration: none; }
 .chdog{
     display: flex;
     width: 100%;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .chgender {
-    max-width: 30px;
-    margin: 7px;
+    max-width: 1.875rem;
+    margin: .4375rem;
 }
 
 .chlastmsg {
     font-family: 'Poppins', sans-serif;
     text-align: left;
     font-weight: 300;
-    font-size: 15px;
+    font-size: .9375rem;
     max-width: 100%;
-    padding-left: 20px;
+    padding-left: 1.25rem;
     text-overflow: ellipsis;
     overflow: hidden; 
     white-space: nowrap;
@@ -398,5 +398,5 @@ a { text-decoration: none; }
 .chcontactinfo {
     display: flex;
     flex-direction: column;
-    width: 380px
+    width: 23.75rem
 }

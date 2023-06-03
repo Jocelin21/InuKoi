@@ -20,37 +20,37 @@
     transform: translate(-50%, -50%);
     background-color: #FEEAEA;
     box-shadow: 0 16px 40px 0 rgba(112, 38, 62, 0.25);
-    border-radius: 20px;
-    width: calc(100% - 200px);
-    height: calc(100% - 120px);
+    border-radius: 1.25rem;
+    width: calc(100% - 12.5rem);
+    height: calc(100% - 7.5rem);
     display: flex;
-    gap: 50px;
-    padding: 40px;
+    gap: 3.125rem;
+    padding: 2.5rem;
 }
 
 .info-container, .info-container2 {
-    margin-top: 15px;
-    width: 330px;
+    margin-top: .9375rem;
+    width: 20.625rem;
 }
 
 .ownername, .birth, .gender, .country, .city, .dogname, .breed, .age {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.25rem;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 2.2375rem;
     color: #4E412F;
 }
 
 #oname, #ocountry, #ocity, #dname, #dbreed, #dage, input[type="date"] {
     border: none;
-    border-radius: 8px;
-    padding: 12px;
-    font-size: 16px;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
     background-color: #FFFAF5;
     box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
     width: 100%;
-    height: 48px;
+    height: 3rem;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -74,31 +74,31 @@ input[type="date"] {
 #oname::placeholder, #ocountry::placeholder, #ocity::placeholder, #dname::placeholder, #dbreed::placeholder, #dage::placeholder, #bio::placeholder {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     color: #A6968C;
 }
 
 .pic {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
 }
 
 .back {
-    max-width: 50px;
+    max-width: 3.125rem;
 }
 
 .logonamedetails {
     max-width: 150px;
     position: absolute;
     bottom: 0;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .numactive, .numinactive {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     background-color: #4E412F;
     color: #FFE7D1;  
@@ -118,12 +118,12 @@ input[type="date"] {
     color: rgba(78, 65, 47, 0.5);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 1.4375rem;
 }
 
 .titleactive, .titleinactive {
     font-family: 'Inter', sans-serif;
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 900;
     color: #4E412F;
 }
@@ -135,7 +135,7 @@ input[type="date"] {
 .step-container {
     display: flex;
     align-items: center;
-    padding: 23px 0px;
+    padding: 1.4375rem 0px;
 }
 
 .line{
@@ -148,10 +148,10 @@ input[type="date"] {
     justify-content: space-between;
     align-items: center;
     width: 88%;
-    height: 30px;
+    height: 1.875rem;
     background-color: #FEEAEA;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     box-shadow: 0 2px 8px rgba(82, 46, 34, 0.135);
 }
 
@@ -185,7 +185,7 @@ input[type="date"] {
 }
 
 .gender-box span, .pgender-box span {
-    width: 30px;
+    width: 1.875rem;
     height: 0px;
     border-radius: 10px;
     background-color: #FEEAEA;
@@ -196,8 +196,8 @@ input[type="date"] {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     opacity: 0.5;
-    padding: 20px 26px;
-    font-size: 16px;
+    padding: 1.25rem 1.625rem;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -210,7 +210,7 @@ input[type="date"] {
     content: '';
     position: absolute;
     top: 50%;
-    right: -15px;
+    right: -.9375rem;
     transform: translateY(-50%);
     height: 80%;
     border-left: 1px solid #4e412f73;
@@ -229,8 +229,8 @@ input[type="date"] {
 .pic {
     border-radius: 50%;
     background-color: #FEA8A8;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     box-shadow: 0 2px 8px rgba(82, 46, 34, 0.135);
     display: flex;
     justify-content: center;
@@ -240,10 +240,10 @@ input[type="date"] {
 
 .upload {
     color: rgba(78, 65, 47, 0.5);
-    padding-left: 15px;
+    padding-left: .9375rem;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
-    font-size: 23px;
+    font-size: 1.4375rem;
 }
 
 .camera {
@@ -257,29 +257,29 @@ input[type="date"] {
     color: #4E412F;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    margin-top: 45px;
-    width: 715px;
-    font-size: 27px;
+    margin-top: 2.8125rem;
+    width: 44.6875rem;
+    font-size: 1.6875rem;
     line-height: 1.5;
 }
 
 .message2 {
     color: #4E412F;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 1.875rem;
+    padding-bottom: .625rem;
 }
 
 #bio {
-    padding-left: 23px;
-    height: 200px;
-    width: 715px;
+    padding-left: 1.4375rem;
+    height: 12.5rem;
+    width: 39.6875rem;
     border: none;
-    border-radius: 8px;
-    padding: 12px;
-    font-size: 16px;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
     background-color: #FFFAF5;
     box-shadow: 0 2px 8px rgba(82, 46, 34, 0.087);
     box-sizing: border-box;
@@ -292,19 +292,19 @@ input[type="date"] {
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #A6968C;
-    padding-top: 10px;
+    padding-top: .625rem;
 }
 
 .buttondetails {
     border: 2px solid #4E412F1A;
     border-radius: 8px;
-    padding: 10px;
-    font-size: 16px;
+    padding: .625rem;
+    font-size: 1rem;
     background-color: #4E412F;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    width: 150px;
+    width: 9.375rem;
     box-sizing: border-box;
     color: #FFFAF5;
     position: absolute;
@@ -317,3 +317,4 @@ input[type="date"] {
 .buttondetails:hover, .pic:hover {
     cursor: pointer;
 }
+
