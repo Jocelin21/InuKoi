@@ -122,7 +122,7 @@
 .choosetitle {
     font-family: 'Glory', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -136,7 +136,7 @@
     border: 2px solid #4E412F1A;
     border-radius: 8px;
     padding: 12px;
-    font-size: 15px;
+    font-size: 0.9375rem;
     background-color: #4E412F;
     box-shadow: 0 12px 10px rgba(57, 32, 24, 0.135);
     width: 150px;
@@ -145,3 +145,39 @@
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+/* responsive */
+/* large screen  */
+
+@media (max-width: 1170px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  /* Tablet screen  */
+  
+  @media (max-width: 1000px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  
+  /* Mobile screen  */
+  
+  @media (max-width: 710px) {
+    html {
+      font-size: 8px;
+    }
+  }
+  @media (max-width: 600px) {
+    html {
+      font-size: 5px;
+    }
+  }
