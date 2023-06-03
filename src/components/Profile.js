@@ -149,8 +149,12 @@ function Profile() {
                 <img className="profcamera" src="image/profilepic.png" />
                 <button className="dsavebutton">Save</button>
               </div>
-            </div></section>  
-          <a href="/"><button className="logout" onClick= {logout}>Log Out</button></a>
+            </div>
+          </section>  
+          <div className="profileButtons">
+            <a href="/"><button className="logout" onClick= {logout}>Log Out</button></a>
+            <a href="/"><button className="delete" onClick= {logout}>Delete Account</button></a>
+          </div>
         </div>
       </div>
     );
