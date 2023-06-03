@@ -18,6 +18,11 @@ const PetDetails = ({onClose, open}) => {
   const [doggender, setDogGender] = useState('');
   const navigate = useNavigate();
 
+  const handleSubmit = event => {
+    event.preventDefault();
+    navigate("/petbio");
+  }
+
   useEffect(() => {
     try {
       const q = query(collection(db, "users"), where("uid", "==", user?.uid));
@@ -52,8 +57,7 @@ const PetDetails = ({onClose, open}) => {
   }, [user]);
  
 
-  const useSubmit = async (e) => {
-    e.preventDefault()
+  const useSubmit = async () => {
 
     try {
         const dogUUID = uuid4();
@@ -74,7 +78,7 @@ const PetDetails = ({onClose, open}) => {
     <div className="detailbody">
       <meta charSet="utf-8" />
       <title>Pet Details</title>
-      <form>
+      <form onSubmit={handleSubmit}>
       <div className="container">
         <div className="title-container">
           <a href="humandetails"><img className="back" src="image/back.png" /></a>

@@ -14,6 +14,10 @@ const PetBio = ({onClose, open}) => {
   const [dogbio, setDogBio] = useState('');
   const navigate = useNavigate();
 
+  const handleSubmit = event => {
+    event.preventDefault();
+    navigate("/choose");
+  }
 
   
   useEffect(() => {
@@ -50,8 +54,7 @@ const PetBio = ({onClose, open}) => {
   }, [user]);
  
 
-  const useSubmit = async (e) => {
-    e.preventDefault()
+  const useSubmit = async () => {
 
     try {
         const dogUUID = uuid4();
@@ -67,7 +70,7 @@ const PetBio = ({onClose, open}) => {
     <div>
       <meta charSet="utf-8" />
       <title>Pet Bio</title>
-      <form>
+      <form onSubmit={handleSubmit}>
       <div className="container">
         <div className="title-container">
           <a href="petdetails"><img className="back" src="image/back.png" /></a>
