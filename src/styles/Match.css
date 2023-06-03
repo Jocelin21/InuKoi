@@ -13,6 +13,7 @@ body {
 
 .header-container {
     display: flex;
+    justify-content: space-between;
     padding-top: 30px;
 }
 
@@ -20,10 +21,9 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    justify-self: center;
     align-items: center;
     width: 430px;
-    position: absolute;
-    left: 33%;
     transform: translate(0%, 40%);
 }
 
