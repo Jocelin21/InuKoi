@@ -3,7 +3,7 @@ This is the final branch repository for our WADS Final Project website app: InuK
 
 # Live-Link
 checkout our deployed website here:
-https://inukoi.web.app/
+https://inu-koi.vercel.app/
 
 # About InuKoi
 Target User:
@@ -17,6 +17,9 @@ Main Features:
 - Chat with matches 
 - Post and share your dog photos online!
 - Find nearby dogs in your area
+
+# Youtube-Link
+(to be updated)
 
 # Team Members
 - Filbert Federico
