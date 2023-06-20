@@ -19,8 +19,7 @@ Main Features:
 - Find nearby dogs in your area
 
 # Youtube-Link
-(to be updated)
-
+https://youtu.be/89P_73vXAbE
 # Team Members
 - Filbert Federico
 - Jocelin Wilson
