@@ -2,37 +2,68 @@ import "../styles/Profile.css"
 import "../styles/Match.css"
 import "../styles/Details.css"
 
-
+import { getAuth } from "firebase/auth";
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Route, Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { auth, db, logout } from "../firebase";
-import { query, collection, getDocs, where, updateDoc } from "firebase/firestore";
+import { query, collection,deleteDoc, getDocs, where, updateDoc, doc } from "firebase/firestore";
 
-function Profile() {
-  /*trying to fetch fullname*/
+const Profile = () => {
   const [user, loading, error] = useAuthState(auth);
-  const [fullname, setFullName] = useState("");
-  const navigate = useNavigate();
+  const [name, setName] = useState(" ");
+  const [fullname, setFullName] = useState("")
+  const navigate = useNavigate()
+  
+  /* function to delete a document from firstore */
+// const handlerDelete = async ()=>{
+//   const todoDocRef = doc(db,"users", user.id);
+//   try{
+//     await deleteDoc(todoDocRef)
+//   }catch(err){
+//     alert(err)
+//   }
+// }
+
   const fetchUserName = async () => {
     try {
       const q = query(collection(db, "users"), where("uid", "==", user?.uid));
+      // const qq= query(collection(db, "humans"), where("humanId", "==", human?.humanId))
+      //get query of all users
       const doc = await getDocs(q);
+      // const docc = await getDocs(qq);
+      //first user data from all users
       const data = doc.docs[0].data();
-      setFullName(data.fullname); /*full name here*/
+      // const dataa = docc.docs[0].data()
+      
+      // setFullName(dataa.fullname);
+      setName(data.name);
     } catch (err) {
       console.error(err);
       alert("An error occured while fetching user data!");
     }
   };
 
-    useEffect(() => {
-      if (loading) return;
-      if (!user) return navigate("/");
-      fetchUserName();
-    }, [user, loading]);
+  
+//   const deleteUser = document.querySelector('.delete')
+//   deleteUser.addEventListener('submit'), (e) => {
+//     e.preventDefault()
+//     const docRef = doc(db, 'users', deleteUser.id.value)
 
+//     deleteDoc(docRef)
+//     .then(()=>{
+//         deleteUser.reset()
+//     })
+// }
+
+  useEffect(() => {
+    if (loading) return;
+    if (!user) return navigate("/");
+    fetchUserName();
+  }, [user, loading]);
+
+    
     return (
       <div>
         <meta charSet="utf-8" />
@@ -82,9 +113,9 @@ function Profile() {
               <div className="userprof-container2">
                 <div className="info-container">
                   <div className="ownname">Name</div>
-                  <input type="text" id="oname" name="oname" placeholder="Owner's Name" defaultValue="Ethan Anderson" />
+                  <input type="text" id="oname" name="oname" placeholder="Owner's Name"  value= {name} />
                   <div className="ownbirth">Date of Birth</div>
-                  <input type="date" id="birth" name="birth" defaultValue="2000-01-01" />
+                  <input type="date" id="birth" name="birth" defaultValue="2000-01-01"  />
                   <div className="owngender">Gender</div>
                   <div className="gender-box">
                     <label>
@@ -153,7 +184,7 @@ function Profile() {
           </section>  
           <div className="profileButtons">
             <a href="/"><button className="logout" onClick= {logout}>Log Out</button></a>
-            <a href="/"><button className="delete" onClick= {logout}>Delete Account</button></a>
+            <a href="/"></a><button className="delete" /*onClick= {handlerDelete}*/ >Delete Account</button>
           </div>
         </div>
       </div>

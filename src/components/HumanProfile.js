@@ -1,12 +1,13 @@
 import "../styles/Details.css"
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Route, Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Routes, Link,  } from "react-router-dom";
+import { useNavigate, Route } from "react-router-dom";
 import { auth, db} from "../firebase";
 import { onSnapshot, query, collection, addDoc, getDocs, where } from "firebase/firestore";
 import { initializeApp } from 'firebase/app';
 import {v4 as uuid4} from 'uuid';
+
 
 const HumanProfile = ({onClose, open}) => {
   const [user, loading, error] = useAuthState(auth);
@@ -18,6 +19,11 @@ const HumanProfile = ({onClose, open}) => {
   const [dob, setDob] = useState();
   const [gender, setGender] = useState();
   const navigate = useNavigate();
+
+  const handleSubmit = event => {
+    event.preventDefault();
+    navigate("/petdetails");
+  }
 
       
 
@@ -55,8 +61,8 @@ const HumanProfile = ({onClose, open}) => {
   }, [user]);
  
 
-  const useSubmit = async (e) => {
-    e.preventDefault()
+  const useSubmit = async () => {
+
 
     try {
         const itemUUID = uuid4();
@@ -80,7 +86,7 @@ const HumanProfile = ({onClose, open}) => {
       <div>
         <meta charSet="utf-8" />
         <title>Owner Profile</title>
-        <form>
+        <form onSubmit={handleSubmit}>
 
         <div className="container">
           <div className="title-container">

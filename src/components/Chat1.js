@@ -119,8 +119,8 @@ function Chat1() {
             </div>
           </div>
           <div className="chattings">
-            {/* <div className="user">Hey I’m Ethan, and Ai is my Shiba Inu.</div>
-            <div className="user2">Heyy Ethan, I’m Ruby and the shiba you see in my pfp is Kopi!</div>
+            <div className="user">Hey I’m Aqua, and Ai is my Shiba Inu.</div>
+            <div className="user2">Heyy Aqua, I’m Ruby and the shiba you see in my pfp is Kopi!</div>
             <div className="user">Ooh he’s so adorable :o I bet the two of them will fall in love in no time.</div>
             <div className="user2">It’s been really hard to find another Shiba Inu in Jakarta, I’m glad I found one haha</div> */}
                 {/* <ul className="message-list">

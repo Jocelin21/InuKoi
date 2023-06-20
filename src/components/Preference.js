@@ -118,12 +118,12 @@ function Preference() {
           <div className="preflow">
             <div className="modnotif">You can modify your preferences later from your profile.</div>
             <div className="prefleft">
-              <Link to="choose">
+              <a href="choose">
                 <img className="prefback" src="image/back.png" alt="Back" />
-              </Link>
-              <Link to="choose">
+              </a>
+              <a href="choose">
                 <button className="psave">Save</button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
